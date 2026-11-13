@@ -248,49 +248,14 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5079575118131736,
+        "zoomFactor": 0.4598521426736335,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 294,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite4",
-          "persistentUuid": "f27bb5de-200d-4c26-a21c-d59d2fd2425d",
-          "width": 285,
-          "x": 807,
-          "y": 21,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 102,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Cloud_3",
-          "persistentUuid": "779c9e53-95b7-420a-91a5-980194a8d3aa",
-          "width": 123,
-          "x": 866,
-          "y": 136,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
+      "instances": [],
       "objects": [
         {
           "assetStoreId": "",
@@ -1646,9 +1611,6 @@
             "objectName": "NewSprite"
           },
           {
-            "objectName": "NewPanelSprite"
-          },
-          {
             "objectName": "NewTiledSprite2"
           },
           {
@@ -1662,6 +1624,15 @@
           },
           {
             "objectName": "NewSprite4"
+          },
+          {
+            "objectName": "Cloud_1"
+          },
+          {
+            "objectName": "Cloud_2"
+          },
+          {
+            "objectName": "Cloud_3"
           }
         ]
       },
