@@ -199,6 +199,7 @@
         "userAdded": false
       },
       {
+<<<<<<< Updated upstream
         "file": "assets/NewSprite17.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -241,6 +242,28 @@
         "metadata": "",
         "name": "New Piskel-1.png(2)2.png",
 >>>>>>> Stashed changes
+=======
+        "file": "New Piskel-1.png(1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-1.png(1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Piskel-2.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-2.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Piskel-3.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-3.png.png",
+>>>>>>> Stashed changes
         "smoothed": false,
         "userAdded": false
       }
@@ -277,9 +300,13 @@
         "gridAlpha": 0.8,
         "snap": false,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         "zoomFactor": 0.5079575118131736,
 =======
         "zoomFactor": 0.3895856273827286,
+>>>>>>> Stashed changes
+=======
+        "zoomFactor": 0.4598521426736331,
 >>>>>>> Stashed changes
         "windowMask": false,
         "selectedLayer": "",
@@ -318,6 +345,23 @@
           "x": 866,
           "y": 136,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 5,
+          "height": 173,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "5863f32e-2e76-4ff7-a299-300c5f959c67",
+          "width": 173,
+          "x": 58,
+          "y": 791,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1694,14 +1738,23 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
+<<<<<<< Updated upstream
           "behaviors": [],
           "animations": []
+=======
+          "behaviors": []
+>>>>>>> Stashed changes
         },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
+<<<<<<< Updated upstream
           "name": "NewSprite4",
           "persistentUuid": "61c4223c-672e-45b1-8984-55484622ff67",
+=======
+          "name": "NewSprite2",
+          "persistentUuid": "1090202f-b99f-454d-9d4f-a5aa3784d3a2",
+>>>>>>> Stashed changes
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1709,17 +1762,29 @@
           "behaviors": [],
           "animations": [
             {
+<<<<<<< Updated upstream
               "name": "NewSprite4",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
                   "metadata": "{\"pskl\":{}}",
+=======
+              "name": "1.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+>>>>>>> Stashed changes
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
+<<<<<<< Updated upstream
                       "image": "NewSprite18",
+=======
+                      "image": "New Piskel-1.png(1).png",
+>>>>>>> Stashed changes
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1735,6 +1800,7 @@
                       "customCollisionMask": [
                         [
                           {
+<<<<<<< Updated upstream
                             "x": 13,
                             "y": 13
                           },
@@ -1756,6 +1822,41 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite19",
+=======
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 3,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "2.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "New Piskel-2.png.png",
+>>>>>>> Stashed changes
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1771,6 +1872,7 @@
                       "customCollisionMask": [
                         [
                           {
+<<<<<<< Updated upstream
                             "x": 13,
                             "y": 13
                           },
@@ -1792,6 +1894,41 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite20",
+=======
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 3,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "3.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "New Piskel-3.png.png",
+>>>>>>> Stashed changes
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1807,6 +1944,7 @@
                       "customCollisionMask": [
                         [
                           {
+<<<<<<< Updated upstream
                             "x": 13,
                             "y": 13
                           },
@@ -1857,6 +1995,22 @@
                           {
                             "x": 13,
                             "y": 48
+=======
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 3,
+                            "y": 29
+>>>>>>> Stashed changes
                           }
                         ]
                       ]
@@ -1866,6 +2020,9 @@
               ]
             }
           ]
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         }
@@ -1887,6 +2044,7 @@
             "objectName": "NewTiledSprite2"
           },
           {
+<<<<<<< Updated upstream
             "objectName": "NewSprite"
           },
           {
@@ -1899,6 +2057,9 @@
             "objectName": "NewSprite4"
 =======
             "objectName": "NewTiledSprite2"
+>>>>>>> Stashed changes
+=======
+            "objectName": "NewSprite2"
 >>>>>>> Stashed changes
           }
         ]
