@@ -71,6 +71,22 @@
         "name": "NewSprite",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -114,73 +130,23 @@
       "instances": [],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
-          "persistentUuid": "f986c64f-69f2-4fbe-a70a-f84586ddb395",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "height": 100,
+          "name": "NewTiledSprite",
+          "persistentUuid": "2d8f6018-549c-4119-9df1-c82caec11f35",
+          "texture": "NewTiledSprite2",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 100,
           "variables": [],
           "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 16,
-                            "y": 14
-                          },
-                          {
-                            "x": 53,
-                            "y": 14
-                          },
-                          {
-                            "x": 53,
-                            "y": 61
-                          },
-                          {
-                            "x": 16,
-                            "y": 61
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "NewSprite"
+            "objectName": "NewTiledSprite"
           }
         ]
       },
@@ -257,16 +223,8 @@
       ],
       "behaviorsSharedData": [
         {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
-        },
-        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
-        },
-        {
-          "name": "Flippable",
-          "type": "FlippableCapability::FlippableBehavior"
         },
         {
           "name": "Opacity",
@@ -275,10 +233,6 @@
         {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
-        },
-        {
-          "name": "Scale",
-          "type": "ScalableCapability::ScalableBehavior"
         }
       ]
     }
