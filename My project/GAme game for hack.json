@@ -251,7 +251,7 @@
       {
         "file": "assets/NewSprite18.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite18.png\"}",
         "name": "NewSprite18",
         "smoothed": false,
         "userAdded": false
@@ -259,7 +259,7 @@
       {
         "file": "assets/NewSprite19.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite19.png\"}",
         "name": "NewSprite19",
         "smoothed": false,
         "userAdded": false
@@ -267,7 +267,7 @@
       {
         "file": "assets/NewSprite20.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite20.png\"}",
         "name": "NewSprite20",
         "smoothed": false,
         "userAdded": false
@@ -275,7 +275,7 @@
       {
         "file": "assets/NewSprite21.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite21.png\"}",
         "name": "NewSprite21",
         "smoothed": false,
         "userAdded": false
@@ -333,6 +333,23 @@
           "x": 807,
           "y": 21,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 102,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Cloud_3",
+          "persistentUuid": "779c9e53-95b7-420a-91a5-980194a8d3aa",
+          "width": 123,
+          "x": 866,
+          "y": 136,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
