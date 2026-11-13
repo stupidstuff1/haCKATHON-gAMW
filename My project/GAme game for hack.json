@@ -215,6 +215,30 @@
         "name": "NewSprite21",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "New Piskel-1.png(1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-1.png(1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Piskel-2.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-2.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Piskel-3.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-3.png.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -248,7 +272,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5079575118131736,
+        "zoomFactor": 0.34118560234734546,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -277,32 +301,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 102,
+          "height": 153,
           "keepRatio": true,
           "layer": "",
-          "name": "Cloud_3",
-          "persistentUuid": "779c9e53-95b7-420a-91a5-980194a8d3aa",
-          "width": 123,
-          "x": 866,
-          "y": 136,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 5,
-          "height": 173,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite2",
-          "persistentUuid": "5863f32e-2e76-4ff7-a299-300c5f959c67",
-          "width": 173,
-          "x": 58,
-          "y": 791,
-          "zOrder": 4,
+          "name": "NewTiledSprite",
+          "persistentUuid": "c8fca440-82cb-43ae-9075-7a52e91e4467",
+          "width": 1917,
+          "x": 2,
+          "y": 933,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1651,6 +1658,163 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite5",
+          "persistentUuid": "c7d8da84-0b50-406c-b7ce-d8c0ff3126e1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "1.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "New Piskel-1.png(1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 3,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "2.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "New Piskel-2.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 3,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "3.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "New Piskel-3.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 3,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1661,9 +1825,6 @@
           },
           {
             "objectName": "NewSprite"
-          },
-          {
-            "objectName": "NewPanelSprite"
           },
           {
             "objectName": "NewTiledSprite2"
@@ -1679,6 +1840,18 @@
           },
           {
             "objectName": "NewSprite4"
+          },
+          {
+            "objectName": "Cloud_1"
+          },
+          {
+            "objectName": "Cloud_2"
+          },
+          {
+            "objectName": "Cloud_3"
+          },
+          {
+            "objectName": "NewSprite5"
           }
         ]
       },
