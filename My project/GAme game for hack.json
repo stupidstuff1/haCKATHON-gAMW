@@ -71,6 +71,30 @@
         "name": "NewSprite",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "New Piskel-1.png(1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-1.png(1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Piskel-2.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-2.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Piskel-3.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-3.png.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -104,32 +128,14 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.34118560234734485,
+        "zoomFactor": 7.2122702885051435,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 732,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "56268555-8030-4b09-845e-98e2305a7218",
-          "width": 742,
-          "x": 589,
-          "y": 84,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
+      "instances": [],
       "objects": [
         {
           "adaptCollisionMaskAutomatically": true,
@@ -192,6 +198,151 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "persistentUuid": "fa60df13-cd19-4a8e-a558-9b2ba3fc4a83",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "persistentUuid": "beb13a21-19e1-42ea-8cc9-c1aad549fa42",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "New Piskel-1.png(1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 3,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "New Piskel-2.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 3,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "New Piskel-3.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 3,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -199,6 +350,12 @@
         "children": [
           {
             "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "NewSprite2"
           }
         ]
       },
