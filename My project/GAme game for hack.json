@@ -177,42 +177,26 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite17.png",
+        "file": "New Piskel-1.png(1).png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite17",
+        "metadata": "",
+        "name": "New Piskel-1.png(1).png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite18.png",
+        "file": "New Piskel-2.png.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite18.png\"}",
-        "name": "NewSprite18",
+        "metadata": "",
+        "name": "New Piskel-2.png.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite19.png",
+        "file": "New Piskel-3.png.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite19.png\"}",
-        "name": "NewSprite19",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite20.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite20.png\"}",
-        "name": "NewSprite20",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite21.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite21.png\"}",
-        "name": "NewSprite21",
+        "metadata": "",
+        "name": "New Piskel-3.png.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -248,7 +232,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4598521426736335,
+        "zoomFactor": 0.44485159988866496,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -260,15 +244,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 294,
+          "height": 182,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite4",
-          "persistentUuid": "f27bb5de-200d-4c26-a21c-d59d2fd2425d",
-          "width": 285,
-          "x": 807,
-          "y": 21,
-          "zOrder": 1,
+          "name": "NewTiledSprite",
+          "persistentUuid": "0a8ed347-3d1b-4cfd-a5c4-c5c10393d237",
+          "width": 1919,
+          "x": -2,
+          "y": 930,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -277,14 +261,31 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 102,
+          "height": 1088,
           "keepRatio": true,
           "layer": "",
-          "name": "Cloud_3",
-          "persistentUuid": "779c9e53-95b7-420a-91a5-980194a8d3aa",
-          "width": 123,
-          "x": 866,
-          "y": 136,
+          "name": "NewTiledSprite2",
+          "persistentUuid": "19a8e89b-0ba1-4567-9959-6a15e08c3656",
+          "width": 32,
+          "x": 4,
+          "y": 2,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1031,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "8e1f3617-696c-413a-913e-1eb3abe8b23f",
+          "width": 32,
+          "x": 1888,
+          "y": 1,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -293,15 +294,32 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 5,
-          "height": 173,
+          "depth": 1,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "23e5c670-5f29-4df5-a393-7ca95ef08c8d",
+          "width": 1861,
+          "x": 31,
+          "y": 2,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 67,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite2",
-          "persistentUuid": "5863f32e-2e76-4ff7-a299-300c5f959c67",
-          "width": 173,
-          "x": 58,
-          "y": 791,
+          "persistentUuid": "9316b4f2-98b2-4f26-9df2-8a5c290f9290",
+          "width": 71,
+          "x": 159,
+          "y": 433,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -316,856 +334,48 @@
           "persistentUuid": "2d8f6018-549c-4119-9df1-c82caec11f35",
           "texture": "NewTiledSprite3",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Cloud_1",
-          "persistentUuid": "87637c37-d047-4cd7-aef5-8fce2f07db04",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
+          "width": 100,
+          "variables": [
             {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite2",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 13,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 32
-                          },
-                          {
-                            "x": 13,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite3",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 13,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 32
-                          },
-                          {
-                            "x": 13,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite4",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 13,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 32
-                          },
-                          {
-                            "x": 13,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 13,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 32
-                          },
-                          {
-                            "x": 13,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite6",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 13,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 32
-                          },
-                          {
-                            "x": 13,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite7",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 13,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 32
-                          },
-                          {
-                            "x": 13,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite8",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 13,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 32
-                          },
-                          {
-                            "x": 13,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite9",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 13,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 11
-                          },
-                          {
-                            "x": 52,
-                            "y": 32
-                          },
-                          {
-                            "x": 13,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
+              "name": "Variable",
+              "persistentUuid": "b6a7eb7b-0bea-4aed-b3dc-aa0b1151562b",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Polygon",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 3,
+              "masks": 3
+            },
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Cloud_2",
-          "persistentUuid": "885592f0-d2ef-4410-9be3-55ced8c97fcd",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite11",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 10,
-                            "y": 17
-                          },
-                          {
-                            "x": 55,
-                            "y": 17
-                          },
-                          {
-                            "x": 55,
-                            "y": 45
-                          },
-                          {
-                            "x": 10,
-                            "y": 45
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite12",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 10,
-                            "y": 17
-                          },
-                          {
-                            "x": 55,
-                            "y": 17
-                          },
-                          {
-                            "x": 55,
-                            "y": 45
-                          },
-                          {
-                            "x": 10,
-                            "y": 45
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite13",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 10,
-                            "y": 17
-                          },
-                          {
-                            "x": 55,
-                            "y": 17
-                          },
-                          {
-                            "x": 55,
-                            "y": 45
-                          },
-                          {
-                            "x": 10,
-                            "y": 45
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite14",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 10,
-                            "y": 17
-                          },
-                          {
-                            "x": 55,
-                            "y": 17
-                          },
-                          {
-                            "x": 55,
-                            "y": 45
-                          },
-                          {
-                            "x": 10,
-                            "y": 45
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite15",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 10,
-                            "y": 17
-                          },
-                          {
-                            "x": 55,
-                            "y": 17
-                          },
-                          {
-                            "x": 55,
-                            "y": 45
-                          },
-                          {
-                            "x": 10,
-                            "y": 45
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite10",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 10,
-                            "y": 17
-                          },
-                          {
-                            "x": 55,
-                            "y": 17
-                          },
-                          {
-                            "x": 55,
-                            "y": 45
-                          },
-                          {
-                            "x": 10,
-                            "y": 45
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Cloud_3",
-          "persistentUuid": "47b9656c-38ae-4bb9-8eca-be7a8191eab4",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Cloud 3",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Cloud 3",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 43
-                          },
-                          {
-                            "x": 2,
-                            "y": 43
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Cloud4",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 43
-                          },
-                          {
-                            "x": 2,
-                            "y": 43
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Cloud5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 43
-                          },
-                          {
-                            "x": 2,
-                            "y": 43
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Cloud6",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 43
-                          },
-                          {
-                            "x": 2,
-                            "y": 43
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Cloud7",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 43
-                          },
-                          {
-                            "x": 2,
-                            "y": 43
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Cloud8",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 43
-                          },
-                          {
-                            "x": 2,
-                            "y": 43
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite16",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 43
-                          },
-                          {
-                            "x": 2,
-                            "y": 43
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "NewTiledSprite2",
-          "persistentUuid": "970dd251-95c1-47fb-8e07-b6324d21146a",
-          "texture": "",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -1409,28 +619,80 @@
           ]
         },
         {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NewPanelSprite",
+          "persistentUuid": "691b2998-54a8-41ac-a152-d2216d16b8b8",
+          "rightMargin": 0,
+          "texture": "",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite2",
+          "persistentUuid": "5750c904-4b2e-4195-bccc-4f61a85f5da8",
+          "texture": "New Piskel-1.png(2).png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "NewSprite2",
-          "persistentUuid": "79dccbdd-57d4-4f1c-98a3-a38457adc2b6",
+          "persistentUuid": "169206b2-da2b-49c9-89ee-20306e51dd34",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": true,
+              "fixedRotation": false,
+              "canSleep": false,
+              "shape": "Circle",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 3,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
           "animations": [
             {
-              "name": "NewSprite2",
+              "name": "1.png",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite17",
+                      "image": "New Piskel-1.png(1).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1446,20 +708,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 18
+                            "x": 3,
+                            "y": 3
                           },
                           {
-                            "x": 44,
-                            "y": 18
+                            "x": 29,
+                            "y": 3
                           },
                           {
-                            "x": 44,
-                            "y": 44
+                            "x": 29,
+                            "y": 29
                           },
                           {
-                            "x": 16,
-                            "y": 44
+                            "x": 3,
+                            "y": 29
                           }
                         ]
                       ]
@@ -1467,44 +729,18 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite3",
-          "persistentUuid": "ce7e2a6b-cc03-4fe2-86dc-3f2b9c4204ec",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite4",
-          "persistentUuid": "61c4223c-672e-45b1-8984-55484622ff67",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
+            },
             {
-              "name": "NewSprite4",
+              "name": "2.png",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
+                  "looping": false,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite18",
+                      "image": "New Piskel-2.png.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1520,27 +756,39 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 13,
-                            "y": 13
+                            "x": 3,
+                            "y": 3
                           },
                           {
-                            "x": 52,
-                            "y": 13
+                            "x": 29,
+                            "y": 3
                           },
                           {
-                            "x": 52,
-                            "y": 48
+                            "x": 29,
+                            "y": 29
                           },
                           {
-                            "x": 13,
-                            "y": 48
+                            "x": 3,
+                            "y": 29
                           }
                         ]
                       ]
-                    },
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "3.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite19",
+                      "image": "New Piskel-3.png.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1556,92 +804,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 13,
-                            "y": 13
+                            "x": 3,
+                            "y": 3
                           },
                           {
-                            "x": 52,
-                            "y": 13
+                            "x": 29,
+                            "y": 3
                           },
                           {
-                            "x": 52,
-                            "y": 48
+                            "x": 29,
+                            "y": 29
                           },
                           {
-                            "x": 13,
-                            "y": 48
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite20",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 13,
-                            "y": 13
-                          },
-                          {
-                            "x": 52,
-                            "y": 13
-                          },
-                          {
-                            "x": 52,
-                            "y": 48
-                          },
-                          {
-                            "x": 13,
-                            "y": 48
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite21",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 13,
-                            "y": 13
-                          },
-                          {
-                            "x": 52,
-                            "y": 13
-                          },
-                          {
-                            "x": 52,
-                            "y": 48
-                          },
-                          {
-                            "x": 13,
-                            "y": 48
+                            "x": 3,
+                            "y": 29
                           }
                         ]
                       ]
@@ -1663,28 +839,13 @@
             "objectName": "NewSprite"
           },
           {
+            "objectName": "NewPanelSprite"
+          },
+          {
             "objectName": "NewTiledSprite2"
           },
           {
-            "objectName": "NewSprite"
-          },
-          {
             "objectName": "NewSprite2"
-          },
-          {
-            "objectName": "NewSprite3"
-          },
-          {
-            "objectName": "NewSprite4"
-          },
-          {
-            "objectName": "Cloud_1"
-          },
-          {
-            "objectName": "Cloud_2"
-          },
-          {
-            "objectName": "Cloud_3"
           }
         ]
       },
@@ -1838,6 +999,19 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "worldScale": 100,
+          "scaleX": 100,
+          "scaleY": 100
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
         },
         {
           "name": "Resizable",
