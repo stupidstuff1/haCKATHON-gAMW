@@ -111,25 +111,7 @@
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 732,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "56268555-8030-4b09-845e-98e2305a7218",
-          "width": 742,
-          "x": 589,
-          "y": 84,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
+      "instances": [],
       "objects": [
         {
           "adaptCollisionMaskAutomatically": true,
