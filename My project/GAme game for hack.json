@@ -177,6 +177,7 @@
         "userAdded": false
       },
       {
+<<<<<<< Updated upstream
         "file": "assets/NewSprite17.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -217,6 +218,8 @@
         "userAdded": false
       },
       {
+=======
+>>>>>>> Stashed changes
         "file": "New Piskel-1.png(1).png",
         "kind": "image",
         "metadata": "",
@@ -313,6 +316,77 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+<<<<<<< Updated upstream
+=======
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1088,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "19a8e89b-0ba1-4567-9959-6a15e08c3656",
+          "width": 32,
+          "x": 4,
+          "y": 2,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1031,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "8e1f3617-696c-413a-913e-1eb3abe8b23f",
+          "width": 32,
+          "x": 1888,
+          "y": 1,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "23e5c670-5f29-4df5-a393-7ca95ef08c8d",
+          "width": 1861,
+          "x": 31,
+          "y": 2,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 7,
+          "height": 220,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "9316b4f2-98b2-4f26-9df2-8a5c290f9290",
+          "width": 220,
+          "x": 159,
+          "y": 280,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+>>>>>>> Stashed changes
         }
       ],
       "objects": [
@@ -323,6 +397,7 @@
           "persistentUuid": "2d8f6018-549c-4119-9df1-c82caec11f35",
           "texture": "NewTiledSprite3",
           "type": "TiledSpriteObject::TiledSprite",
+<<<<<<< Updated upstream
           "width": 32,
           "variables": [],
           "effects": [],
@@ -1171,8 +1246,50 @@
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
+=======
+          "width": 100,
+          "variables": [
+            {
+              "name": "Variable",
+              "persistentUuid": "fcde2259-7aa7-4408-804a-d165e58ddc58",
+              "type": "number",
+              "value": 0
+            }
+          ],
+>>>>>>> Stashed changes
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Polygon",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 3,
+              "masks": 3
+            },
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -1486,18 +1603,28 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
+<<<<<<< Updated upstream
           "behaviors": [],
           "animations": []
+=======
+          "behaviors": []
+>>>>>>> Stashed changes
         },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
+<<<<<<< Updated upstream
           "name": "NewSprite4",
           "persistentUuid": "61c4223c-672e-45b1-8984-55484622ff67",
+=======
+          "name": "NewSprite2",
+          "persistentUuid": "169206b2-da2b-49c9-89ee-20306e51dd34",
+>>>>>>> Stashed changes
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
+<<<<<<< Updated upstream
           "behaviors": [],
           "animations": [
             {
@@ -1669,6 +1796,33 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
+=======
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Circle",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+>>>>>>> Stashed changes
           "animations": [
             {
               "name": "1.png",
@@ -1830,6 +1984,7 @@
             "objectName": "NewTiledSprite2"
           },
           {
+<<<<<<< Updated upstream
             "objectName": "NewSprite"
           },
           {
@@ -1852,6 +2007,12 @@
           },
           {
             "objectName": "NewSprite5"
+=======
+            "objectName": "NewTiledSprite2"
+          },
+          {
+            "objectName": "NewSprite2"
+>>>>>>> Stashed changes
           }
         ]
       },
@@ -2005,6 +2166,19 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "worldScale": 100,
+          "scaleX": 100,
+          "scaleY": 100
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
         },
         {
           "name": "Resizable",
