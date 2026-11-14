@@ -232,8 +232,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4598521426736335,
->>>>>>> 4b8c291e490bf87e1bd977ddc4a701acbab3aee6
+        "zoomFactor": 0.41630252177333266,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -675,8 +674,8 @@
               "density": 1,
               "friction": 0.3,
               "restitution": 0.1,
-              "linearDamping": 0.1,
-              "angularDamping": 0.1,
+              "linearDamping": 0.01,
+              "angularDamping": 0.01,
               "gravityScale": 3,
               "layers": 1,
               "masks": 1
@@ -843,35 +842,10 @@
             "objectName": "NewPanelSprite"
           },
           {
-            "objectName": "NewSprite"
-          },
-          {
-            "objectName": "NewSprite2"
-          },
-          {
-            "objectName": "NewSprite3"
-          },
-          {
-            "objectName": "NewSprite4"
-          },
-          {
-            "objectName": "Cloud_1"
-          },
-          {
-            "objectName": "Cloud_2"
-          },
-          {
-            "objectName": "Cloud_3"
-          },
-          {
-            "objectName": "NewSprite5"
-
             "objectName": "NewTiledSprite2"
           },
           {
             "objectName": "NewSprite2"
->>>>>>> spencer
->>>>>>> 4b8c291e490bf87e1bd977ddc4a701acbab3aee6
           }
         ]
       },
