@@ -2284,7 +2284,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9227465364204578,
+        "zoomFactor": 0.444851599888666,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -5436,14 +5436,6 @@
                 "=",
                 "(\"Clicks: \") + ToString(clicks)"
               ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.3"
-              ]
             }
           ]
         },
@@ -5494,7 +5486,38 @@
             },
             {
               "type": {
-                "value": "Physics2::AngularVelocity"
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "123"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "137"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
               },
               "parameters": [
                 "NewSprite2",
@@ -5513,53 +5536,24 @@
             },
             {
               "type": {
-                "value": "Physics2::SetDynamic"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "NewSprite2",
-                "Physics2"
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
               ]
             },
             {
               "type": {
-                "value": "Physics2::LinearVelocityX"
+                "value": "Physics2::AngularVelocity"
               },
               "parameters": [
                 "NewSprite2",
                 "Physics2",
                 "=",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "NewSprite2",
-                "Physics2",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "NewSprite2",
-                "=",
-                "119"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "NewSprite2",
-                "=",
-                "93"
               ]
             },
             {
@@ -5574,13 +5568,11 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Physics2::SetDynamic"
               },
               "parameters": [
-                "NewText",
-                "Text",
-                "=",
-                "(\"Clicks: \") + ToString(clicks)"
+                "NewSprite2",
+                "Physics2"
               ]
             }
           ]
@@ -5734,17 +5726,6 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "NewText",
-                "Text",
-                "=",
-                "(\"Clicks: \") + ToString(clicks)"
-              ]
-            },
-            {
-              "type": {
                 "value": "Physics2::LinearVelocityX"
               },
               "parameters": [
@@ -5772,7 +5753,7 @@
               "parameters": [
                 "NewSprite2",
                 "=",
-                "119"
+                "137"
               ]
             },
             {
@@ -5782,7 +5763,7 @@
               "parameters": [
                 "NewSprite2",
                 "=",
-                "93"
+                "123"
               ]
             },
             {
@@ -6323,7 +6304,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.45985214267363295,
+        "zoomFactor": 0.40272258333259103,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -6633,7 +6614,12 @@
         }
       ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewText"
+          }
+        ]
       },
       "events": [
         {
@@ -6656,7 +6642,7 @@
               "parameters": [
                 "clicks",
                 "=",
-                "5"
+                "10"
               ]
             },
             {
@@ -6853,7 +6839,7 @@
               "parameters": [
                 "clicks",
                 "=",
-                "5"
+                "10"
               ]
             },
             {
@@ -6954,7 +6940,7 @@
               "parameters": [
                 "clicks",
                 "=",
-                "5"
+                "10"
               ]
             },
             {
@@ -6997,7 +6983,7 @@
               "parameters": [
                 "NewSprite2",
                 "=",
-                "137"
+                "44"
               ]
             },
             {
@@ -7007,7 +6993,7 @@
               "parameters": [
                 "NewSprite2",
                 "=",
-                "123"
+                "41"
               ]
             },
             {
@@ -7484,6 +7470,9 @@
         "children": [
           {
             "objectName": "NewSprite9"
+          },
+          {
+            "objectName": "NewText"
           }
         ]
       },
@@ -9208,6 +9197,9 @@
         "children": [
           {
             "objectName": "NewSprite9"
+          },
+          {
+            "objectName": "NewText"
           }
         ]
       },
