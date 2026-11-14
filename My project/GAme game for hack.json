@@ -1501,14 +1501,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 157,
+          "height": 108,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite2",
           "persistentUuid": "729803ff-4a10-4289-8604-a585f104b270",
-          "width": 168,
+          "width": 116,
           "x": 132,
-          "y": 429,
+          "y": 478,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2731,6 +2731,14 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
