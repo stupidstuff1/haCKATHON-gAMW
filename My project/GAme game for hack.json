@@ -1961,6 +1961,75 @@
                 "=",
                 "137"
               ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::AngularVelocity"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetStatic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetDynamic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "1"
+              ]
             }
           ]
         }
