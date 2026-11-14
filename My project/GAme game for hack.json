@@ -1402,7 +1402,7 @@
           "initialVariables": []
         },
         {
-          "angle": 2,
+          "angle": 7,
           "customSize": true,
           "depth": 1,
           "height": 157,
@@ -1412,7 +1412,7 @@
           "persistentUuid": "a97055cd-27e8-46af-8498-e83ae36b3f03",
           "width": 2082,
           "x": -114,
-          "y": 869,
+          "y": 797,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1445,7 +1445,7 @@
           "name": "NewSprite6",
           "persistentUuid": "690a796c-1ebf-45d4-8af7-95425154cdc5",
           "width": 360,
-          "x": 793,
+          "x": 797,
           "y": 358,
           "zOrder": 4,
           "numberProperties": [],
