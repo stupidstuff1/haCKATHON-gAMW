@@ -202,9 +202,515 @@
       }
     ]
   },
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "persistentUuid": "169206b2-da2b-49c9-89ee-20306e51dd34",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Variable",
+          "persistentUuid": "48776c9a-54bb-49b7-a746-1ed0993415b8",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": true,
+          "fixedRotation": false,
+          "canSleep": false,
+          "shape": "Circle",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 3,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "1.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "New Piskel-1.png(1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "New Piskel-2.png.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "New Piskel-3.png.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 100,
+      "name": "NewTiledSprite",
+      "persistentUuid": "2d8f6018-549c-4119-9df1-c82caec11f35",
+      "texture": "NewTiledSprite3",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 100,
+      "variables": [
+        {
+          "name": "Variable",
+          "persistentUuid": "b6a7eb7b-0bea-4aed-b3dc-aa0b1151562b",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Polygon",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 3,
+          "masks": 3
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "persistentUuid": "03cf6eca-5092-4385-97d3-fde1b8eee679",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Cloud",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Cloud 3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 18
+                      },
+                      {
+                        "x": 62,
+                        "y": 18
+                      },
+                      {
+                        "x": 62,
+                        "y": 43
+                      },
+                      {
+                        "x": 2,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Cloud4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 18
+                      },
+                      {
+                        "x": 62,
+                        "y": 18
+                      },
+                      {
+                        "x": 62,
+                        "y": 43
+                      },
+                      {
+                        "x": 2,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Cloud5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 18
+                      },
+                      {
+                        "x": 62,
+                        "y": 18
+                      },
+                      {
+                        "x": 62,
+                        "y": 43
+                      },
+                      {
+                        "x": 2,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Cloud6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 18
+                      },
+                      {
+                        "x": 62,
+                        "y": 18
+                      },
+                      {
+                        "x": 62,
+                        "y": 43
+                      },
+                      {
+                        "x": 2,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Cloud7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 18
+                      },
+                      {
+                        "x": 62,
+                        "y": 18
+                      },
+                      {
+                        "x": 62,
+                        "y": 43
+                      },
+                      {
+                        "x": 2,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Cloud8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 18
+                      },
+                      {
+                        "x": 62,
+                        "y": 18
+                      },
+                      {
+                        "x": 62,
+                        "y": 43
+                      },
+                      {
+                        "x": 2,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite2",
+      "persistentUuid": "5750c904-4b2e-4195-bccc-4f61a85f5da8",
+      "texture": "New Piskel-1.png(2).png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "NewTiledSprite2"
+      },
+      {
+        "objectName": "NewSprite2"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [],
@@ -232,7 +738,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41630252177333266,
+        "zoomFactor": 0.5610952083582069,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -267,7 +773,7 @@
           "name": "NewTiledSprite2",
           "persistentUuid": "19a8e89b-0ba1-4567-9959-6a15e08c3656",
           "width": 32,
-          "x": 4,
+          "x": -1,
           "y": 2,
           "zOrder": 0,
           "numberProperties": [],
@@ -284,7 +790,7 @@
           "name": "NewTiledSprite2",
           "persistentUuid": "8e1f3617-696c-413a-913e-1eb3abe8b23f",
           "width": 32,
-          "x": 1888,
+          "x": 1893,
           "y": 1,
           "zOrder": 2,
           "numberProperties": [],
@@ -300,9 +806,9 @@
           "layer": "",
           "name": "NewTiledSprite2",
           "persistentUuid": "23e5c670-5f29-4df5-a393-7ca95ef08c8d",
-          "width": 1861,
-          "x": 31,
-          "y": 2,
+          "width": 1931,
+          "x": -23,
+          "y": -3,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -318,8 +824,8 @@
           "name": "NewSprite2",
           "persistentUuid": "9316b4f2-98b2-4f26-9df2-8a5c290f9290",
           "width": 71,
-          "x": 159,
-          "y": 433,
+          "x": 172,
+          "y": 437,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -327,297 +833,6 @@
         }
       ],
       "objects": [
-        {
-          "assetStoreId": "",
-          "height": 100,
-          "name": "NewTiledSprite",
-          "persistentUuid": "2d8f6018-549c-4119-9df1-c82caec11f35",
-          "texture": "NewTiledSprite3",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 100,
-          "variables": [
-            {
-              "name": "Variable",
-              "persistentUuid": "b6a7eb7b-0bea-4aed-b3dc-aa0b1151562b",
-              "type": "number",
-              "value": 0
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Physics2",
-              "type": "Physics2::Physics2Behavior",
-              "bodyType": "Static",
-              "bullet": false,
-              "fixedRotation": false,
-              "canSleep": true,
-              "shape": "Polygon",
-              "shapeDimensionA": 0,
-              "shapeDimensionB": 0,
-              "shapeOffsetX": 0,
-              "shapeOffsetY": 0,
-              "polygonOrigin": "Center",
-              "vertices": [],
-              "density": 1,
-              "friction": 0.3,
-              "restitution": 0.1,
-              "linearDamping": 0.1,
-              "angularDamping": 0.1,
-              "gravityScale": 1,
-              "layers": 3,
-              "masks": 3
-            },
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite",
-          "persistentUuid": "03cf6eca-5092-4385-97d3-fde1b8eee679",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Cloud",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cloud 3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 43
-                          },
-                          {
-                            "x": 2,
-                            "y": 43
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cloud4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 43
-                          },
-                          {
-                            "x": 2,
-                            "y": 43
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cloud5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 43
-                          },
-                          {
-                            "x": 2,
-                            "y": 43
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cloud6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 43
-                          },
-                          {
-                            "x": 2,
-                            "y": 43
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cloud7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 43
-                          },
-                          {
-                            "x": 2,
-                            "y": 43
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cloud8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 18
-                          },
-                          {
-                            "x": 62,
-                            "y": 43
-                          },
-                          {
-                            "x": 2,
-                            "y": 43
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "assetStoreId": "",
           "bottomMargin": 0,
@@ -634,218 +849,13 @@
           "variables": [],
           "effects": [],
           "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "NewTiledSprite2",
-          "persistentUuid": "5750c904-4b2e-4195-bccc-4f61a85f5da8",
-          "texture": "New Piskel-1.png(2).png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite2",
-          "persistentUuid": "169206b2-da2b-49c9-89ee-20306e51dd34",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Physics2",
-              "type": "Physics2::Physics2Behavior",
-              "bodyType": "Dynamic",
-              "bullet": true,
-              "fixedRotation": false,
-              "canSleep": false,
-              "shape": "Circle",
-              "shapeDimensionA": 0,
-              "shapeDimensionB": 0,
-              "shapeOffsetX": 0,
-              "shapeOffsetY": 0,
-              "polygonOrigin": "Center",
-              "vertices": [],
-              "density": 1,
-              "friction": 0.3,
-              "restitution": 0.1,
-              "linearDamping": 0.01,
-              "angularDamping": 0.01,
-              "gravityScale": 3,
-              "layers": 1,
-              "masks": 1
-            }
-          ],
-          "animations": [
-            {
-              "name": "1.png",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "New Piskel-1.png(1).png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 3
-                          },
-                          {
-                            "x": 29,
-                            "y": 3
-                          },
-                          {
-                            "x": 29,
-                            "y": 29
-                          },
-                          {
-                            "x": 3,
-                            "y": 29
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "2.png",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "New Piskel-2.png.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 3
-                          },
-                          {
-                            "x": 29,
-                            "y": 3
-                          },
-                          {
-                            "x": 29,
-                            "y": 29
-                          },
-                          {
-                            "x": 3,
-                            "y": 29
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "3.png",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "New Piskel-3.png.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 3
-                          },
-                          {
-                            "x": 29,
-                            "y": 3
-                          },
-                          {
-                            "x": 29,
-                            "y": 29
-                          },
-                          {
-                            "x": 3,
-                            "y": 29
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "NewTiledSprite"
-          },
-          {
-            "objectName": "NewSprite"
-          },
-          {
             "objectName": "NewPanelSprite"
-          },
-          {
-            "objectName": "NewTiledSprite2"
-          },
-          {
-            "objectName": "NewSprite2"
           }
         ]
       },
