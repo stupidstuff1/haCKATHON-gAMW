@@ -279,6 +279,30 @@
         "name": "NewSprite21",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NewSprite2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NewSprite12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NewSprite19.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -312,7 +336,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< Updated upstream
         "zoomFactor": 0.5079575118131736,
+=======
+        "zoomFactor": 0.44485159988866496,
+>>>>>>> Stashed changes
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1481,6 +1509,128 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "persistentUuid": "db634034-b30d-48ee-b993-f6c930d57337",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/NewSprite12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 16
+                          },
+                          {
+                            "x": 57,
+                            "y": 16
+                          },
+                          {
+                            "x": 57,
+                            "y": 44
+                          },
+                          {
+                            "x": 12,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite4",
+          "persistentUuid": "60d6f86e-63cb-46b6-aaaf-d5bb34dbe22b",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/NewSprite19.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 13
+                          },
+                          {
+                            "x": 48,
+                            "y": 13
+                          },
+                          {
+                            "x": 48,
+                            "y": 52
+                          },
+                          {
+                            "x": 15,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1493,6 +1643,7 @@
             "objectName": "Cloud_1"
           },
           {
+<<<<<<< Updated upstream
             "objectName": "Cloud_2"
           },
           {
@@ -1508,10 +1659,24 @@
             "objectName": "NewSprite2"
           },
           {
+=======
+>>>>>>> Stashed changes
             "objectName": "NewSprite3"
           },
           {
             "objectName": "NewSprite4"
+<<<<<<< Updated upstream
+=======
+          },
+          {
+            "objectName": "NewPanelSprite"
+          },
+          {
+            "objectName": "NewTiledSprite2"
+          },
+          {
+            "objectName": "NewSprite2"
+>>>>>>> Stashed changes
           }
         ]
       },
