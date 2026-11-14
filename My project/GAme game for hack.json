@@ -1744,27 +1744,8 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AdvancedWindow::SetClosable"
-              },
-              "parameters": [
-                "no",
-                ""
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -1904,7 +1885,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.459852142673634,
+        "zoomFactor": 0.3645833333333342,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2463,7 +2444,7 @@
               "parameters": [
                 "clicks",
                 "=",
-                "10"
+                "5"
               ]
             },
             {
@@ -2607,7 +2588,7 @@
               "parameters": [
                 "clicks",
                 "=",
-                "10"
+                "5"
               ]
             },
             {
