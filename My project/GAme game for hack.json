@@ -334,7 +334,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43034038022076576,
+        "zoomFactor": 0.4303403802207658,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -420,8 +420,8 @@
           "name": "NewSprite2",
           "persistentUuid": "9316b4f2-98b2-4f26-9df2-8a5c290f9290",
           "width": 71,
-          "x": 1781,
-          "y": 286,
+          "x": 123,
+          "y": 137,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1549,14 +1549,22 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "SetX"
               },
               "parameters": [
-                "",
-                "3638ed02d56975ff92ab082ab73426fb0fbbee06b53b4dde110691a8ff2d6b90_Bleep_01.aac",
-                "",
-                "",
-                ""
+                "NewSprite2",
+                "=",
+                "123"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "137"
               ]
             }
           ]
