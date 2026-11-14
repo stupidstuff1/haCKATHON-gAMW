@@ -481,6 +481,14 @@
         "name": "NewTiledSprite5",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite6",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -9032,7 +9040,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "NewTiledSprite3",
-          "texture": "NewTiledSprite5",
+          "texture": "NewTiledSprite6",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
