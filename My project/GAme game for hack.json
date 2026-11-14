@@ -2499,12 +2499,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 8.51063829787,
-          "height": 186.170212766,
+          "height": 149,
           "keepRatio": true,
           "layer": "",
           "name": "NewText",
           "persistentUuid": "df5b168a-d9e7-4bdf-867c-eed2d1516348",
-          "width": 300,
+          "width": 184,
           "x": 718,
           "y": 75,
           "zOrder": 9,
@@ -2648,7 +2648,7 @@
           "string": "Clicks:",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 80,
+          "characterSize": 50,
           "color": {
             "b": 0,
             "g": 0,
@@ -2672,7 +2672,7 @@
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 80,
+            "characterSize": 50,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -4038,13 +4038,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 149,
           "keepRatio": true,
           "layer": "",
           "name": "NewText",
           "persistentUuid": "ab58ab62-ce6e-4de1-aeba-9f587dfe7263",
-          "width": 0,
+          "width": 184,
           "x": 721,
           "y": 69,
           "zOrder": 10,
@@ -4069,7 +4069,7 @@
           "string": "Text",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 50,
           "color": {
             "b": 0,
             "g": 0,
@@ -4093,7 +4093,7 @@
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 50,
             "lineHeight": 0,
             "color": "0;0;0"
           }
