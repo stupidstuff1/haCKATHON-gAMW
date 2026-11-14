@@ -3929,7 +3929,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41630252177333277,
+        "zoomFactor": 0.38958562738272867,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4561,6 +4561,17 @@
             },
             {
               "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "NewSprite9",
+                "Resizable",
+                "NewSprite6.Height()",
+                "NewSprite6.Width()"
+              ]
+            },
+            {
+              "type": {
                 "value": "Hide"
               },
               "parameters": [
@@ -4590,17 +4601,6 @@
               },
               "parameters": [
                 "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResizableCapability::ResizableBehavior::SetSize"
-              },
-              "parameters": [
-                "NewSprite9",
-                "Resizable",
-                "NewSprite6.Height()",
-                "NewSprite6.Width()"
               ]
             },
             {
