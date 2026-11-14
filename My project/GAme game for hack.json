@@ -325,6 +325,30 @@
         "name": "NewTiledSprite4",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "NewSprite28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite28.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite30.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite31.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -1172,6 +1196,126 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite28.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 25
+                      },
+                      {
+                        "x": 59,
+                        "y": 25
+                      },
+                      {
+                        "x": 59,
+                        "y": 64
+                      },
+                      {
+                        "x": 2,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite8",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite31.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 42
+                      },
+                      {
+                        "x": 128,
+                        "y": 42
+                      },
+                      {
+                        "x": 128,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1194,6 +1338,12 @@
       },
       {
         "objectName": "NewTiledSprite2"
+      },
+      {
+        "objectName": "NewSprite7"
+      },
+      {
+        "objectName": "NewSprite8"
       },
       {
         "objectName": "NewSprite4"
