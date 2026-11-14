@@ -1324,6 +1324,108 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "NewSprite6",
+      "persistentUuid": "c89cd3f5-c6ce-462a-acd3-a6702b9108d5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Polygon",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 3,
+          "masks": 3
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite6",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 20
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 17.5
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 34,
+                        "y": 15
+                      },
+                      {
+                        "x": 37,
+                        "y": 16
+                      },
+                      {
+                        "x": 40.5,
+                        "y": 19
+                      },
+                      {
+                        "x": 43,
+                        "y": 52
+                      },
+                      {
+                        "x": 11,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1355,6 +1457,9 @@
       },
       {
         "objectName": "NewSprite4"
+      },
+      {
+        "objectName": "NewSprite6"
       }
     ]
   },
