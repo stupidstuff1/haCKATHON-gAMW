@@ -2263,10 +2263,95 @@
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 9,
+          "height": 1126,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite6",
+          "persistentUuid": "73eae161-ef59-4d23-86ba-5f57a9ed445b",
+          "width": 1126,
+          "x": 376,
+          "y": 1,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite6",
+          "persistentUuid": "dad7e9c3-d4de-4855-84ab-4ee147b1bd98",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 0
+                          },
+                          {
+                            "x": 122,
+                            "y": 0
+                          },
+                          {
+                            "x": 122,
+                            "y": 119
+                          },
+                          {
+                            "x": 5,
+                            "y": 119
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewSprite6"
+          }
+        ]
       },
       "events": [],
       "layers": [
