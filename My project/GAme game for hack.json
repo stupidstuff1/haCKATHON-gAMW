@@ -309,6 +309,14 @@
         "name": "NewSprite7",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NewSprite27.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -1269,14 +1277,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 379,
+          "height": 415,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite6",
-          "persistentUuid": "80c58b88-144e-4691-baf5-60fe4766dc7b",
-          "width": 429,
-          "x": 725,
-          "y": 380,
+          "persistentUuid": "690a796c-1ebf-45d4-8af7-95425154cdc5",
+          "width": 360,
+          "x": 808,
+          "y": 356,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1292,25 +1300,19 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite6",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite7",
+                      "image": "assets/NewSprite27.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1392,39 +1394,6 @@
               "parameters": [
                 "",
                 "\"Level 1\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "NewSprite6",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectScaleTween3"
-              },
-              "parameters": [
-                "NewSprite6",
-                "Tween",
-                "\"hi\"",
-                "10",
-                "\"easeInOutCirc\"",
-                "3",
-                "",
                 ""
               ]
             }
@@ -1542,10 +1511,6 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
         }
       ]
     },
