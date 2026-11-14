@@ -287,6 +287,20 @@
         "name": "NewSprite6",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Bleep_01.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "3638ed02d56975ff92ab082ab73426fb0fbbee06b53b4dde110691a8ff2d6b90_Bleep_01.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Interface Bleeps/3638ed02d56975ff92ab082ab73426fb0fbbee06b53b4dde110691a8ff2d6b90_Bleep_01.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },
@@ -320,7 +334,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3895856273827289,
+        "zoomFactor": 0.43034038022076576,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1387,8 +1401,8 @@
               "linearDamping": 0.1,
               "angularDamping": 0.1,
               "gravityScale": 1,
-              "layers": 1,
-              "masks": 1
+              "layers": 3,
+              "masks": 3
             }
           ],
           "animations": [
@@ -1509,8 +1523,43 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::CollisionStarted"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "NewSprite5",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "3638ed02d56975ff92ab082ab73426fb0fbbee06b53b4dde110691a8ff2d6b90_Bleep_01.aac",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
