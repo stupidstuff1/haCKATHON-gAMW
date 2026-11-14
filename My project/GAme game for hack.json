@@ -6641,7 +6641,12 @@
         }
       ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewText"
+          }
+        ]
       },
       "events": [
         {
@@ -7159,6 +7164,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -7492,6 +7501,9 @@
         "children": [
           {
             "objectName": "NewSprite9"
+          },
+          {
+            "objectName": "NewText"
           }
         ]
       },
@@ -8011,6 +8023,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -9216,6 +9232,9 @@
         "children": [
           {
             "objectName": "NewSprite9"
+          },
+          {
+            "objectName": "NewText"
           }
         ]
       },
@@ -9735,6 +9754,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -9778,8 +9801,8 @@
           "name": "NewSprite2",
           "persistentUuid": "402a4fc5-994f-43c7-9e12-b7082ff18d95",
           "width": 0,
-          "x": 529,
-          "y": 576,
+          "x": 614,
+          "y": 470,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -9797,6 +9820,23 @@
           "x": 1353,
           "y": 746,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 652,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite3",
+          "persistentUuid": "db11b133-1535-438f-b533-518c6b7e58c5",
+          "width": 32,
+          "x": 867,
+          "y": 235,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9890,7 +9930,14 @@
           "width": 32,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "cost": 2,
+              "impassable": true,
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10210,6 +10257,10 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
         },
         {
           "name": "Physics2",
