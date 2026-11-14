@@ -3091,7 +3091,7 @@
             },
             {
               "type": {
-                "value": "Physics2::SetDynamic"
+                "value": "Physics2::SetStatic"
               },
               "parameters": [
                 "NewSprite2",
@@ -3108,7 +3108,7 @@
             },
             {
               "type": {
-                "value": "Physics2::SetStatic"
+                "value": "Physics2::SetDynamic"
               },
               "parameters": [
                 "NewSprite2",
