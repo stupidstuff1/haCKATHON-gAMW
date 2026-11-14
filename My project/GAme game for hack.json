@@ -397,7 +397,7 @@
       {
         "file": "pipe0.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"pipe0.png\",\"extension\":\".png\"}",
         "name": "pipe0.png",
         "smoothed": false,
         "userAdded": false
@@ -405,7 +405,7 @@
       {
         "file": "pipe1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"pipe1.png\",\"extension\":\".png\"}",
         "name": "pipe1.png",
         "smoothed": false,
         "userAdded": false
@@ -413,7 +413,7 @@
       {
         "file": "pipe2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"pipe2.png\",\"extension\":\".png\"}",
         "name": "pipe2.png",
         "smoothed": false,
         "userAdded": false
@@ -421,7 +421,7 @@
       {
         "file": "pipe3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"pipe3.png\",\"extension\":\".png\"}",
         "name": "pipe3.png",
         "smoothed": false,
         "userAdded": false
@@ -429,7 +429,7 @@
       {
         "file": "pipe4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"pipe4.png\",\"extension\":\".png\"}",
         "name": "pipe4.png",
         "smoothed": false,
         "userAdded": false
@@ -437,7 +437,7 @@
       {
         "file": "pipe5.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"pipe5.png\",\"extension\":\".png\"}",
         "name": "pipe5.png",
         "smoothed": false,
         "userAdded": false
@@ -445,7 +445,7 @@
       {
         "file": "pipe6.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"pipe6.png\",\"extension\":\".png\"}",
         "name": "pipe6.png",
         "smoothed": false,
         "userAdded": false
@@ -453,7 +453,7 @@
       {
         "file": "pipe7.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"pipe7.png\",\"extension\":\".png\"}",
         "name": "pipe7.png",
         "smoothed": false,
         "userAdded": false
@@ -1569,14 +1569,39 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 3,
+          "masks": 3
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "pipe0",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -5611,6 +5636,16 @@
                 "NewSprite6.X()-20",
                 "NewSprite6.Y()",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "NewSprite9",
+                "=",
+                "-90"
               ]
             },
             {
