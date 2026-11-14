@@ -1837,7 +1837,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4163025217733333,
+        "zoomFactor": 0.459852142673634,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2873,7 +2873,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.45985214267363295,
+        "zoomFactor": 0.38958562738272856,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3028,7 +3028,7 @@
           "persistentUuid": "0e646f53-5957-480f-907f-cd96119a7f74",
           "width": 406,
           "x": 1546,
-          "y": 686,
+          "y": 688,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -3131,7 +3131,7 @@
           "width": 32,
           "x": 1481,
           "y": 409,
-          "zOrder": 8,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
