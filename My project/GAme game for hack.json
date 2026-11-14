@@ -1741,48 +1741,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AdvancedWindow::SetClosable"
-              },
-              "parameters": [
-                "no",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AdvancedWindow::SetMovable"
-              },
-              "parameters": [
-                "no",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetWindowTitle"
-              },
-              "parameters": [
-                "yes",
-                "hacky game"
-              ]
-            }
-          ]
         }
       ],
       "layers": [
