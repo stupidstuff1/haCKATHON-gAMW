@@ -2292,7 +2292,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9227465364204578,
+        "zoomFactor": 0.444851599888666,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -5444,14 +5444,6 @@
                 "=",
                 "(\"Clicks: \") + ToString(clicks)"
               ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.3"
-              ]
             }
           ]
         },
@@ -5502,7 +5494,38 @@
             },
             {
               "type": {
-                "value": "Physics2::AngularVelocity"
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "123"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "137"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
               },
               "parameters": [
                 "NewSprite2",
@@ -5521,53 +5544,24 @@
             },
             {
               "type": {
-                "value": "Physics2::SetDynamic"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "NewSprite2",
-                "Physics2"
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
               ]
             },
             {
               "type": {
-                "value": "Physics2::LinearVelocityX"
+                "value": "Physics2::AngularVelocity"
               },
               "parameters": [
                 "NewSprite2",
                 "Physics2",
                 "=",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "NewSprite2",
-                "Physics2",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "NewSprite2",
-                "=",
-                "119"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "NewSprite2",
-                "=",
-                "93"
               ]
             },
             {
@@ -5582,13 +5576,11 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Physics2::SetDynamic"
               },
               "parameters": [
-                "NewText",
-                "Text",
-                "=",
-                "(\"Clicks: \") + ToString(clicks)"
+                "NewSprite2",
+                "Physics2"
               ]
             }
           ]
@@ -5742,17 +5734,6 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "NewText",
-                "Text",
-                "=",
-                "(\"Clicks: \") + ToString(clicks)"
-              ]
-            },
-            {
-              "type": {
                 "value": "Physics2::LinearVelocityX"
               },
               "parameters": [
@@ -5780,7 +5761,7 @@
               "parameters": [
                 "NewSprite2",
                 "=",
-                "119"
+                "137"
               ]
             },
             {
@@ -5790,7 +5771,7 @@
               "parameters": [
                 "NewSprite2",
                 "=",
-                "93"
+                "123"
               ]
             },
             {
@@ -6331,7 +6312,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.45985214267363295,
+        "zoomFactor": 0.40272258333259103,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -6669,7 +6650,7 @@
               "parameters": [
                 "clicks",
                 "=",
-                "5"
+                "10"
               ]
             },
             {
@@ -6866,7 +6847,7 @@
               "parameters": [
                 "clicks",
                 "=",
-                "5"
+                "10"
               ]
             },
             {
@@ -6967,7 +6948,7 @@
               "parameters": [
                 "clicks",
                 "=",
-                "5"
+                "10"
               ]
             },
             {
@@ -7010,7 +6991,7 @@
               "parameters": [
                 "NewSprite2",
                 "=",
-                "137"
+                "44"
               ]
             },
             {
@@ -7020,7 +7001,7 @@
               "parameters": [
                 "NewSprite2",
                 "=",
-                "123"
+                "41"
               ]
             },
             {
@@ -9762,16 +9743,16 @@
       ]
     },
     {
-      "b": 250,
+      "b": 92,
       "disableInputWhenNotFocused": true,
       "mangledName": "Level_32Backrooms",
       "name": "Level Backrooms",
-      "r": 79,
+      "r": 197,
       "renderer3DWorldScale": 100,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 122,
+      "v": 185,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -9798,22 +9779,6 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite2",
-          "persistentUuid": "402a4fc5-994f-43c7-9e12-b7082ff18d95",
-          "width": 0,
-          "x": 614,
-          "y": 470,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "NewSprite10",
           "persistentUuid": "69425773-7b76-4793-9996-fe7f0928fdac",
           "width": 0,
@@ -9828,15 +9793,31 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 652,
+          "height": 892,
           "keepRatio": true,
           "layer": "",
           "name": "NewTiledSprite3",
           "persistentUuid": "db11b133-1535-438f-b533-518c6b7e58c5",
           "width": 32,
           "x": 867,
-          "y": 235,
+          "y": -5,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite11",
+          "persistentUuid": "0edc648d-df11-4e0b-8d92-445b1945ab16",
+          "width": 0,
+          "x": 496,
+          "y": 689,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9932,10 +9913,110 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite11",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "deceleration": 800,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 400,
+              "movementAngleOffset": 0,
+              "rotateObject": true,
+              "useLegacyTurnBack": false,
+              "viewpoint": "TopDown"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "New Piskel-1.png(1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 3,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -9948,6 +10029,9 @@
           },
           {
             "objectName": "NewTiledSprite3"
+          },
+          {
+            "objectName": "NewSprite11"
           }
         ]
       },
@@ -10140,6 +10224,7 @@
           "conditions": [
             {
               "type": {
+                "inverted": true,
                 "value": "SceneJustBegins"
               },
               "parameters": [
@@ -10156,11 +10241,150 @@
                 "NewSprite10",
                 "Pathfinding",
                 "",
-                "NewSprite2.X()",
-                "NewSprite2.Y()"
+                "NewSprite11.X()",
+                "NewSprite11.Y()"
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"w\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::SimulateControl"
+              },
+              "parameters": [
+                "NewSprite11",
+                "TopDownMovement",
+                "\"Up\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"a\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::SimulateControl"
+              },
+              "parameters": [
+                "NewSprite11",
+                "TopDownMovement",
+                "\"Left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"s\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::SimulateControl"
+              },
+              "parameters": [
+                "NewSprite11",
+                "TopDownMovement",
+                "\"Down\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"d\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::SimulateControl"
+              },
+              "parameters": [
+                "NewSprite11",
+                "TopDownMovement",
+                "\"Right\""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KRZA7GK1WW3NBFBXHAZN7BKY",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NewSprite11",
+                "NewTiledSprite3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "NewSprite11",
+                "NewTiledSprite3",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -10282,6 +10506,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
     }
