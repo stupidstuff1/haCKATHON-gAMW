@@ -11131,11 +11131,11 @@
           "effects": [],
           "behaviors": [
             {
+              "maxSpeed": 300,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
               "allowDiagonals": true,
               "smoothingMaxCellGap": 1,
-              "maxSpeed": 200,
               "angularMaxSpeed": 1000000,
               "acceleration": 400,
               "angleOffset": 0,
