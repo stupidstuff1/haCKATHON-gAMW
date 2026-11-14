@@ -1269,7 +1269,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite8",
-      "persistentUuid": "ab3301c5-eab1-49d9-8b4e-7d787cba1dfc",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1559,8 +1558,8 @@
           "name": "NewSprite6",
           "persistentUuid": "690a796c-1ebf-45d4-8af7-95425154cdc5",
           "width": 360,
-          "x": 799,
-          "y": 356,
+          "x": 797,
+          "y": 358,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1589,7 +1588,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "NewSprite6",
-          "persistentUuid": "4f4fced3-2fb4-4aec-b81f-02e405ffa39d",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2016,23 +2014,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 873,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite8",
-          "persistentUuid": "acb2f686-a097-4fe7-9058-d13859051b1c",
-          "width": 870,
-          "x": 900,
-          "y": 153,
-          "zOrder": -2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -2194,6 +2175,14 @@
                 "MouseY(\"\",0)",
                 "NewSprite2.PointX(\"points\")",
                 "NewSprite2.PointY(\"points\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
               ]
             }
           ]
@@ -2744,14 +2733,6 @@
           "actions": [
             {
               "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.2"
-              ]
-            },
-            {
-              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -3263,6 +3244,14 @@
                 "MouseY(\"\",0)",
                 "NewSprite2.PointX(\"points\")",
                 "NewSprite2.PointY(\"points\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
               ]
             }
           ]
