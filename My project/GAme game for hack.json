@@ -1277,7 +1277,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "NewSprite2",
       "persistentUuid": "169206b2-da2b-49c9-89ee-20306e51dd34",
@@ -10404,8 +10404,8 @@
           "name": "NewSprite10",
           "persistentUuid": "69425773-7b76-4793-9996-fe7f0928fdac",
           "width": 51,
-          "x": 1377,
-          "y": 975,
+          "x": 1499,
+          "y": 452,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -11419,13 +11419,14 @@
           "conditions": [
             {
               "type": {
-                "value": "Physics2::CollisionStarted"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "NewSprite2",
-                "Physics2",
+                "NewSprite11",
                 "NewSprite6",
-                ""
+                "",
+                "",
+                "no"
               ]
             }
           ],
@@ -11436,7 +11437,7 @@
               },
               "parameters": [
                 "",
-                "\"win4\"",
+                "\"Level 6\"",
                 ""
               ]
             }
@@ -11690,7 +11691,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "30"
+                "20"
               ]
             },
             {
@@ -11703,6 +11704,81 @@
               ]
             }
           ]
+        },
+        {
+          "aiGeneratedEventId": "01KRZA7GK1WW3NBFBXHAZN7BKY",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NewSprite11",
+                "NewSprite10",
+                "",
+                "",
+                "no"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite11",
+                "=",
+                "53"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite11",
+                "=",
+                "1004"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite10",
+                "=",
+                "1500"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite10",
+                "=",
+                "500"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level Backrooms\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
