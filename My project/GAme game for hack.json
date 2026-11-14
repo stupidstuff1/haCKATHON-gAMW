@@ -1080,7 +1080,7 @@
         {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
-          "bodyType": "Static",
+          "bodyType": "Dynamic",
           "bullet": true,
           "fixedRotation": false,
           "canSleep": false,
@@ -5444,6 +5444,14 @@
                 "=",
                 "(\"Clicks: \") + ToString(clicks)"
               ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
             }
           ]
         },
@@ -5494,38 +5502,7 @@
             },
             {
               "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "NewSprite2",
-                "=",
-                "123"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "NewSprite2",
-                "=",
-                "137"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "NewSprite2",
-                "Physics2",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
+                "value": "Physics2::AngularVelocity"
               },
               "parameters": [
                 "NewSprite2",
@@ -5544,24 +5521,53 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Physics2::SetDynamic"
               },
               "parameters": [
-                "NewText",
-                "Text",
-                "=",
-                "(\"Clicks: \") + ToString(clicks)"
+                "NewSprite2",
+                "Physics2"
               ]
             },
             {
               "type": {
-                "value": "Physics2::AngularVelocity"
+                "value": "Physics2::LinearVelocityX"
               },
               "parameters": [
                 "NewSprite2",
                 "Physics2",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "119"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "93"
               ]
             },
             {
@@ -5576,11 +5582,13 @@
             },
             {
               "type": {
-                "value": "Physics2::SetDynamic"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "NewSprite2",
-                "Physics2"
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
               ]
             }
           ]
@@ -5734,6 +5742,17 @@
             },
             {
               "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
+            },
+            {
+              "type": {
                 "value": "Physics2::LinearVelocityX"
               },
               "parameters": [
@@ -5761,7 +5780,7 @@
               "parameters": [
                 "NewSprite2",
                 "=",
-                "137"
+                "119"
               ]
             },
             {
@@ -5771,7 +5790,7 @@
               "parameters": [
                 "NewSprite2",
                 "=",
-                "123"
+                "93"
               ]
             },
             {
@@ -6557,13 +6576,110 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 149,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "3700cfcf-f31f-4f91-b15e-1272920e1ade",
+          "width": 184,
+          "x": 32,
+          "y": 20,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        }
+      ],
       "objectsFolderStructure": {
         "folderName": "__ROOT"
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -6590,6 +6706,27 @@
                 "MouseY(\"\",0)",
                 "NewSprite2.PointX(\"points\")",
                 "NewSprite2.PointY(\"points\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
               ]
             },
             {
@@ -6716,6 +6853,27 @@
                 "=",
                 "123"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
             }
           ]
         },
@@ -6751,6 +6909,143 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetStatic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::AngularVelocity"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "137"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "123"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetDynamic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -7067,6 +7362,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 149,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "2047cce3-dc6a-4a1b-80ec-01fce21fa365",
+          "width": 184,
+          "x": 32,
+          "y": 20,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -7130,6 +7442,49 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -7141,6 +7496,42 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -7167,6 +7558,27 @@
                 "MouseY(\"\",0)",
                 "NewSprite2.PointX(\"points\")",
                 "NewSprite2.PointY(\"points\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
               ]
             },
             {
@@ -7293,6 +7705,27 @@
                 "=",
                 "123"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
             }
           ]
         },
@@ -7328,6 +7761,143 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetStatic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::AngularVelocity"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "137"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "123"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetDynamic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -8516,6 +9086,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 149,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "b53e8971-0d5c-47b9-9611-6a50e4e9efa3",
+          "width": 184,
+          "x": 32,
+          "y": 20,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -8579,6 +9166,49 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -8590,6 +9220,42 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -8616,6 +9282,27 @@
                 "MouseY(\"\",0)",
                 "NewSprite2.PointX(\"points\")",
                 "NewSprite2.PointY(\"points\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
               ]
             },
             {
@@ -8742,6 +9429,27 @@
                 "=",
                 "123"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
             }
           ]
         },
@@ -8777,6 +9485,143 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetStatic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::AngularVelocity"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "137"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "123"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetDynamic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
