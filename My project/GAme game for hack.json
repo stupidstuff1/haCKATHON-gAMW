@@ -1249,7 +1249,7 @@
               "bullet": false,
               "fixedRotation": false,
               "canSleep": true,
-              "shape": "Box",
+              "shape": "Polygon",
               "shapeDimensionA": 0,
               "shapeDimensionB": 0,
               "shapeOffsetX": 0,
