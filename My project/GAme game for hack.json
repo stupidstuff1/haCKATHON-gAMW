@@ -263,6 +263,22 @@
         "name": "assets/NewSprite15",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -296,7 +312,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.49138775453293526,
+        "zoomFactor": 0.44485159988866496,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -305,17 +321,17 @@
       "variables": [],
       "instances": [
         {
-          "angle": 0,
+          "angle": 360,
           "customSize": true,
           "depth": 1,
-          "height": 182,
+          "height": 184,
           "keepRatio": true,
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "0a8ed347-3d1b-4cfd-a5c4-c5c10393d237",
-          "width": 1919,
-          "x": -4,
-          "y": 922,
+          "width": 1915,
+          "x": 6,
+          "y": 958,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -365,7 +381,7 @@
           "name": "NewTiledSprite2",
           "persistentUuid": "23e5c670-5f29-4df5-a393-7ca95ef08c8d",
           "width": 1861,
-          "x": 31,
+          "x": 33,
           "y": 2,
           "zOrder": 0,
           "numberProperties": [],
@@ -385,23 +401,6 @@
           "x": 157,
           "y": 60,
           "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 244,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "f36e04c9-f9ff-42ba-94e0-55e75cba7a92",
-          "width": 314,
-          "x": 661,
-          "y": 91,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -433,9 +432,26 @@
           "name": "NewSprite3",
           "persistentUuid": "8d190892-7b9a-4459-9ae7-277ef5017324",
           "width": 392,
-          "x": 823,
-          "y": 436,
+          "x": 768,
+          "y": 155,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 355,
+          "customSize": true,
+          "depth": 1,
+          "height": 253,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "d9118ebb-1813-4a6d-80f2-b02331bcfb14",
+          "width": 310,
+          "x": 1220,
+          "y": 279,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -762,10 +778,33 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            },
+            {
               "canBeGrabbed": true,
+              "name": "Platform",
               "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
               "yGrabOffset": 0
             }
           ]
@@ -1182,6 +1221,68 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite5",
+          "persistentUuid": "8402bb66-db65-4368-850c-492c8b9aac0d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite5",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 61,
+                            "y": 15
+                          },
+                          {
+                            "x": 61,
+                            "y": 37
+                          },
+                          {
+                            "x": 15,
+                            "y": 37
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1192,6 +1293,9 @@
           },
           {
             "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewSprite5"
           },
           {
             "objectName": "NewSprite3"
@@ -1213,33 +1317,8 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Physics2::ApplyForceTowardPosition"
-              },
-              "parameters": [
-                "NewSprite2",
-                "Physics2",
-                "(DistanceBetweenPositions3D(NewSprite2.X(), NewSprite2.Y(), 0, CursorX(), CursorY(), 0))/10",
-                "MouseX(\"\",0)",
-                "MouseY(\"\",0)",
-                "NewSprite2.PointX(\"points\")",
-                "NewSprite2.PointY(\"points\")"
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
