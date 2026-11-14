@@ -279,6 +279,14 @@
         "name": "../../../../Downloads/New Piskel-2.png.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -312,7 +320,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.33005600491659276,
+        "zoomFactor": 0.4913877545329356,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -398,8 +406,8 @@
           "name": "NewSprite2",
           "persistentUuid": "9316b4f2-98b2-4f26-9df2-8a5c290f9290",
           "width": 71,
-          "x": 157,
-          "y": 60,
+          "x": 1781,
+          "y": 286,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -469,6 +477,23 @@
           "x": 802,
           "y": 780,
           "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 357,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite6",
+          "persistentUuid": "1054cc2a-ef21-435a-833d-a15782ecdcf1",
+          "width": 375,
+          "x": 1628,
+          "y": 730,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1316,6 +1341,68 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite6",
+          "persistentUuid": "e8a1b649-8720-42a0-ac97-5880b928122a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite6",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 15
+                          },
+                          {
+                            "x": 43,
+                            "y": 15
+                          },
+                          {
+                            "x": 43,
+                            "y": 52
+                          },
+                          {
+                            "x": 11,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1344,6 +1431,9 @@
           },
           {
             "objectName": "NewSprite5"
+          },
+          {
+            "objectName": "NewSprite6"
           }
         ]
       },
