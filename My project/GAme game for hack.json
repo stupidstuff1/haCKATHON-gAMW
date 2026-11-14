@@ -1402,7 +1402,7 @@
           "initialVariables": []
         },
         {
-          "angle": 7,
+          "angle": 2,
           "customSize": true,
           "depth": 1,
           "height": 157,
@@ -1412,7 +1412,7 @@
           "persistentUuid": "a97055cd-27e8-46af-8498-e83ae36b3f03",
           "width": 2082,
           "x": -114,
-          "y": 797,
+          "y": 869,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1445,7 +1445,7 @@
           "name": "NewSprite6",
           "persistentUuid": "690a796c-1ebf-45d4-8af7-95425154cdc5",
           "width": 360,
-          "x": 797,
+          "x": 793,
           "y": 358,
           "zOrder": 4,
           "numberProperties": [],
@@ -2722,13 +2722,61 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "c085f0e6-3a77-42f8-8c96-d7210123893c",
+          "width": 71,
+          "x": 229,
+          "y": 113,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
       "objectsFolderStructure": {
         "folderName": "__ROOT"
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::ApplyForceTowardPosition"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "(DistanceBetweenPositions3D(NewSprite2.X(), NewSprite2.Y(), 0, CursorX(), CursorY(), 0))/30",
+                "MouseX(\"\",0)",
+                "MouseY(\"\",0)",
+                "NewSprite2.PointX(\"points\")",
+                "NewSprite2.PointY(\"points\")"
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
