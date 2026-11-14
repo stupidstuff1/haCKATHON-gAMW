@@ -762,10 +762,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -1213,8 +1213,33 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::ApplyForceTowardPosition"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "(DistanceBetweenPositions3D(NewSprite2.X(), NewSprite2.Y(), 0, CursorX(), CursorY(), 0))/10",
+                "MouseX(\"\",0)",
+                "MouseY(\"\",0)",
+                "NewSprite2.PointX(\"points\")",
+                "NewSprite2.PointY(\"points\")"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
