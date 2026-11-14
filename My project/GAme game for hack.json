@@ -767,6 +767,16 @@
         "name": "New Piskel-1.png(3).png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Instrument2.m4a",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Instrument2.m4a",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -2611,6 +2621,16 @@
                 "=",
                 "volumeslider.Value()"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "volumelevel",
+                "=",
+                "volumeslider.Value()"
+              ]
             }
           ]
         },
@@ -3625,6 +3645,34 @@
               },
               "parameters": [
                 "NewSprite6",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Instrument2.m4a",
+                "1",
+                "yes",
+                "volumeslider.Value()",
                 ""
               ]
             }
@@ -12116,7 +12164,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5250860067782507,
+        "zoomFactor": 0.41630252177333305,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
