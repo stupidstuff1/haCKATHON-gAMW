@@ -9782,8 +9782,8 @@
           "name": "NewSprite10",
           "persistentUuid": "69425773-7b76-4793-9996-fe7f0928fdac",
           "width": 0,
-          "x": 1353,
-          "y": 746,
+          "x": 1352,
+          "y": 745,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -9834,10 +9834,11 @@
           "effects": [],
           "behaviors": [
             {
+              "allowDiagonals": true,
               "name": "Pathfinding",
+              "smoothingMaxCellGap": 0,
               "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
-              "allowDiagonals": true,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
               "cellHeight": 20,
@@ -9846,8 +9847,7 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 200,
-              "rotateObject": true,
-              "smoothingMaxCellGap": 1
+              "rotateObject": true
             }
           ],
           "animations": [
