@@ -11072,8 +11072,8 @@
           "layer": "",
           "name": "NewTiledSprite3",
           "persistentUuid": "a03076a9-bbe6-4a69-8bb6-f45408cbca5f",
-          "width": 683,
-          "x": 174,
+          "width": 432,
+          "x": 425,
           "y": 92,
           "zOrder": 6,
           "numberProperties": [],
@@ -11278,9 +11278,9 @@
           "effects": [],
           "behaviors": [
             {
-              "maxSpeed": 300,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
+              "maxSpeed": 300,
               "allowDiagonals": true,
               "smoothingMaxCellGap": 1,
               "angularMaxSpeed": 1000000,
