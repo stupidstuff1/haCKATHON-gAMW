@@ -2873,7 +2873,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.38958562738272845,
+        "zoomFactor": 0.4163025217733325,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3013,6 +3013,23 @@
           "x": 306,
           "y": 155,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 6,
+          "height": 406,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite6",
+          "persistentUuid": "0e646f53-5957-480f-907f-cd96119a7f74",
+          "width": 406,
+          "x": 1546,
+          "y": 686,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3166,6 +3183,34 @@
                 "NewSprite2",
                 "=",
                 "123"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::CollisionStarted"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "NewSprite6",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"win\"",
+                ""
               ]
             }
           ]
