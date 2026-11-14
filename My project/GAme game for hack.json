@@ -11388,8 +11388,8 @@
           "name": "NewSprite6",
           "persistentUuid": "2de482ef-20f5-4a2e-aabe-8f7927dab111",
           "width": 0,
-          "x": 1810,
-          "y": 50,
+          "x": 2049,
+          "y": -165,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -12071,14 +12071,6 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "NewSprite6"
-              ]
-            },
-            {
-              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -12087,11 +12079,22 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "SetX"
               },
               "parameters": [
                 "NewSprite6",
-                ""
+                "=",
+                "1828"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite6",
+                "=",
+                "45"
               ]
             }
           ]
