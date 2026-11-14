@@ -2802,15 +2802,6 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
                 "value": "MouseButtonFromTextReleased"
               },
               "parameters": [
