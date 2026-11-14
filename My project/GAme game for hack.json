@@ -1899,7 +1899,7 @@
               "parameters": [
                 "NewSprite2",
                 "Physics2",
-                "(DistanceBetweenPositions3D(NewSprite2.X(), NewSprite2.Y(), 0, CursorX(), CursorY(), 0))/10",
+                "(DistanceBetweenPositions3D(NewSprite2.X(), NewSprite2.Y(), 0, CursorX(), CursorY(), 0))/30",
                 "MouseX(\"\",0)",
                 "MouseY(\"\",0)",
                 "NewSprite2.PointX(\"points\")",
