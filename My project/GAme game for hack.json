@@ -1763,6 +1763,24 @@
                 "no",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "AdvancedWindow::SetMovable"
+              },
+              "parameters": [
+                "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetWindowTitle"
+              },
+              "parameters": [
+                "yes",
+                "hacky game"
+              ]
             }
           ]
         }
