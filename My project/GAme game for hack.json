@@ -393,6 +393,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Kenney/787adbbfd4d93e6a2f33d7b20115926d950e35c177ca2e699370ec02504c53be_Rounded Square Yellow Fill Bar.png",
           "name": "Rounded Square Yellow Fill Bar.png"
         }
+      },
+      {
+        "file": "assets/New3DBox_Front.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New3DBox_Front",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -8257,6 +8265,10 @@
         {
           "name": "MaxMovementSpeed_Forces",
           "type": "SpeedRestrictions::MaxMovementSpeed_Forces"
+        },
+        {
+          "name": "Object3D",
+          "type": "Scene3D::Base3DBehavior"
         },
         {
           "name": "Opacity",
