@@ -279,6 +279,14 @@
         "name": "../../../../Downloads/New Piskel-2.png.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -312,7 +320,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.33005600491659276,
+        "zoomFactor": 0.4913877545329356,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -398,8 +406,8 @@
           "name": "NewSprite2",
           "persistentUuid": "9316b4f2-98b2-4f26-9df2-8a5c290f9290",
           "width": 71,
-          "x": 157,
-          "y": 60,
+          "x": 1781,
+          "y": 286,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -469,6 +477,23 @@
           "x": 802,
           "y": 780,
           "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 357,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite6",
+          "persistentUuid": "1054cc2a-ef21-435a-833d-a15782ecdcf1",
+          "width": 375,
+          "x": 1628,
+          "y": 730,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -826,9 +851,24 @@
           "persistentUuid": "169206b2-da2b-49c9-89ee-20306e51dd34",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Variable",
+              "persistentUuid": "90efdda0-1774-4d85-9183-0ff0d7c0e400",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
+            {
+              "name": "MaxMovementSpeed_Forces",
+              "type": "SpeedRestrictions::MaxMovementSpeed_Forces",
+              "MaximumSpeed": 1000,
+              "CurrentSpeedX": 0,
+              "CurrentSpeedY": 0,
+              "CurrentSpeed": 0
+            },
             {
               "name": "Physics2",
               "type": "Physics2::Physics2Behavior",
@@ -1316,6 +1356,68 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite6",
+          "persistentUuid": "e8a1b649-8720-42a0-ac97-5880b928122a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite6",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 15
+                          },
+                          {
+                            "x": 43,
+                            "y": 15
+                          },
+                          {
+                            "x": 43,
+                            "y": 52
+                          },
+                          {
+                            "x": 11,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1344,6 +1446,9 @@
           },
           {
             "objectName": "NewSprite5"
+          },
+          {
+            "objectName": "NewSprite6"
           }
         ]
       },
@@ -1377,6 +1482,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -1520,6 +1630,10 @@
           "type": "FlippableCapability::FlippableBehavior"
         },
         {
+          "name": "MaxMovementSpeed_Forces",
+          "type": "SpeedRestrictions::MaxMovementSpeed_Forces"
+        },
+        {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
         },
@@ -1562,7 +1676,423 @@
   "testsFolderStructure": {
     "folderName": "__ROOT"
   },
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "Movement",
+      "dimension": "2D",
+      "extensionNamespace": "",
+      "fullName": "Speed restrictions",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXNwZWVkb21ldGVyIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDE2QTMsMyAwIDAsMSA5LDEzQzksMTEuODggOS42MSwxMC45IDEwLjUsMTAuMzlMMjAuMjEsNC43N0wxNC42OCwxNC4zNUMxNC4xOCwxNS4zMyAxMy4xNywxNiAxMiwxNk0xMiwzQzEzLjgxLDMgMTUuNSwzLjUgMTYuOTcsNC4zMkwxNC44Nyw1LjUzQzE0LDUuMTkgMTMsNSAxMiw1QTgsOCAwIDAsMCA0LDEzQzQsMTUuMjEgNC44OSwxNy4yMSA2LjM0LDE4LjY1SDYuMzVDNi43NCwxOS4wNCA2Ljc0LDE5LjY3IDYuMzUsMjAuMDZDNS45NiwyMC40NSA1LjMyLDIwLjQ1IDQuOTMsMjAuMDdWMjAuMDdDMy4xMiwxOC4yNiAyLDE1Ljc2IDIsMTNBMTAsMTAgMCAwLDEgMTIsM00yMiwxM0MyMiwxNS43NiAyMC44OCwxOC4yNiAxOS4wNywyMC4wN1YyMC4wN0MxOC42OCwyMC40NSAxOC4wNSwyMC40NSAxNy42NiwyMC4wNkMxNy4yNywxOS42NyAxNy4yNywxOS4wNCAxNy42NiwxOC42NVYxOC42NUMxOS4xMSwxNy4yIDIwLDE1LjIxIDIwLDEzQzIwLDEyIDE5LjgxLDExIDE5LjQ2LDEwLjFMMjAuNjcsOEMyMS41LDkuNSAyMiwxMS4xOCAyMiwxM1oiIC8+PC9zdmc+",
+      "name": "SpeedRestrictions",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/speedometer.svg",
+      "shortDescription": "Limit max movement and rotation speed for forces-based or Physics 2D.",
+      "version": "0.1.2",
+      "description": [
+        "Limit the maximum movement and rotation speed of an object from forces or the 2D Physics behavior.",
+        "",
+        "How to use:",
+        "- Add the behavior that matches the method used to move the object (forces or physics)",
+        "- Set the maximum speed value in the behavior properties",
+        "",
+        "Tips:",
+        "- This only affects movement caused by forces or physics behavior",
+        "- This may not affect movement caused by other behaviors (platformer, top-down, draggable, etc)"
+      ],
+      "origin": {
+        "identifier": "SpeedRestrictions",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "physics",
+        "maximum",
+        "speed",
+        "velocity",
+        "physics",
+        "force",
+        "limit"
+      ],
+      "authorIds": [
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "eventsBasedBehaviors": [
+        {
+          "description": "Limit the maximum speed an object will move from (non-physics) forces.",
+          "fullName": "Enforce max movement speed",
+          "helpPath": "",
+          "iconUrl": "",
+          "name": "MaxMovementSpeed_Forces",
+          "objectType": "",
+          "previewIconUrl": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Speed"
+                      },
+                      "parameters": [
+                        "Object",
+                        ">",
+                        "MaximumSpeed"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CurrentSpeedX",
+                        "=",
+                        "Object.ForceX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CurrentSpeedY",
+                        "=",
+                        "Object.ForceY()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CurrentSpeed",
+                        "=",
+                        "Object.ForceLength()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ClearForces"
+                      },
+                      "parameters": [
+                        "Object"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "CurrentSpeedX * MaximumSpeed / CurrentSpeed",
+                        "CurrentSpeedY * MaximumSpeed / CurrentSpeed",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpeedRestrictions::MaxMovementSpeed_Forces",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              }
+            ]
+          },
+          "propertyDescriptors": [
+            {
+              "value": "1000",
+              "type": "Number",
+              "unit": "PixelSpeed",
+              "label": "Maximum speed",
+              "name": "MaximumSpeed"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "hidden": true,
+              "name": "CurrentSpeedX"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "hidden": true,
+              "name": "CurrentSpeedY"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "hidden": true,
+              "name": "CurrentSpeed"
+            }
+          ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "MaximumSpeed"
+              },
+              {
+                "propertyName": "CurrentSpeedX"
+              },
+              {
+                "propertyName": "CurrentSpeedY"
+              },
+              {
+                "propertyName": "CurrentSpeed"
+              }
+            ]
+          }
+        },
+        {
+          "description": "Limit the maximum speed an object will move from physics forces.",
+          "fullName": "Enforce max movement speed (physics)",
+          "helpPath": "",
+          "iconUrl": "",
+          "name": "MaxMovementSpeed_Physics",
+          "objectType": "",
+          "previewIconUrl": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityLength"
+                      },
+                      "parameters": [
+                        "Object",
+                        "PhysicsBehavior",
+                        ">",
+                        "MaximumSpeed"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "PhysicsBehavior",
+                        "*",
+                        "MaximumSpeed / Object. PhysicsBehavior::LinearVelocity()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "PhysicsBehavior",
+                        "*",
+                        "MaximumSpeed / Object. PhysicsBehavior::LinearVelocity()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpeedRestrictions::MaxMovementSpeed_Physics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              }
+            ]
+          },
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Physics Behavior (required)",
+              "extraInformation": [
+                "Physics2::Physics2Behavior"
+              ],
+              "choices": [],
+              "name": "PhysicsBehavior"
+            },
+            {
+              "value": "1000",
+              "type": "Number",
+              "unit": "PixelSpeed",
+              "label": "Maximum speed",
+              "name": "MaximumSpeed"
+            }
+          ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsBehavior"
+              },
+              {
+                "propertyName": "MaximumSpeed"
+              }
+            ]
+          }
+        },
+        {
+          "description": "Limit the maximum rotation speed of an object from physics forces.",
+          "fullName": "Enforce max rotation speed (physics)",
+          "helpPath": "",
+          "iconUrl": "",
+          "name": "MaxRotationSpeed_Physics",
+          "objectType": "",
+          "previewIconUrl": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "abs(Object.PhysicsBehavior::AngularVelocity())",
+                        ">",
+                        "MaximumRotationSpeed"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::AngularVelocity"
+                      },
+                      "parameters": [
+                        "Object",
+                        "PhysicsBehavior",
+                        "*",
+                        "abs(MaximumRotationSpeed / Object.PhysicsBehavior::AngularVelocity())"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpeedRestrictions::MaxRotationSpeed_Physics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              }
+            ]
+          },
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Physics Behavior (required)",
+              "extraInformation": [
+                "Physics2::Physics2Behavior"
+              ],
+              "choices": [],
+              "name": "PhysicsBehavior"
+            },
+            {
+              "value": "3600",
+              "type": "Number",
+              "unit": "AngularSpeed",
+              "label": "Maximum rotation speed",
+              "name": "MaximumRotationSpeed"
+            }
+          ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsBehavior"
+              },
+              {
+                "propertyName": "MaximumRotationSpeed"
+              }
+            ]
+          }
+        }
+      ],
+      "eventsBasedObjects": []
+    }
+  ],
   "externalLayouts": [],
   "externalLayoutsFolderStructure": {
     "folderName": "__ROOT"
