@@ -263,6 +263,22 @@
         "name": "assets/NewSprite15",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "New Piskel-2.png(1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-2.png(1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../Downloads/New Piskel-2.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../../Downloads/New Piskel-2.png.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -296,7 +312,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2890516203134917,
+        "zoomFactor": 0.33005600491659276,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -436,6 +452,23 @@
           "x": 823,
           "y": 436,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 7,
+          "height": 228,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "cf289b85-d526-429b-92d5-6fa0762c7dc8",
+          "width": 228,
+          "x": 802,
+          "y": 780,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -804,7 +837,7 @@
               "fixedRotation": false,
               "canSleep": false,
               "shape": "Circle",
-              "shapeDimensionA": 0,
+              "shapeDimensionA": 12,
               "shapeDimensionB": 0,
               "shapeOffsetX": 0,
               "shapeOffsetY": 0,
@@ -1198,6 +1231,91 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "NewSprite5",
+          "persistentUuid": "fa561608-c4c5-4118-99d5-cb1b39b33a69",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 3,
+              "masks": 3
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "New Piskel-2.png(1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 0
+                          },
+                          {
+                            "x": 17,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1223,6 +1341,9 @@
           },
           {
             "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "NewSprite5"
           }
         ]
       },
