@@ -334,7 +334,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4303403802207658,
+        "zoomFactor": 0.37687720367508776,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1372,7 +1372,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
+          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "NewSprite6",
           "persistentUuid": "e8a1b649-8720-42a0-ac97-5880b928122a",
@@ -1388,11 +1388,11 @@
               "bullet": false,
               "fixedRotation": false,
               "canSleep": true,
-              "shape": "Polygon",
-              "shapeDimensionA": 0,
-              "shapeDimensionB": 0,
-              "shapeOffsetX": 0,
-              "shapeOffsetY": 0,
+              "shape": "Box",
+              "shapeDimensionA": 30,
+              "shapeDimensionB": 38,
+              "shapeOffsetX": -5,
+              "shapeOffsetY": 1,
               "polygonOrigin": "Center",
               "vertices": [],
               "density": 1,
@@ -1433,28 +1433,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 13.5,
-                            "y": 20
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 17.5
-                          },
-                          {
-                            "x": 19.5,
+                            "x": 11,
                             "y": 15
                           },
                           {
-                            "x": 34,
+                            "x": 43,
                             "y": 15
-                          },
-                          {
-                            "x": 37,
-                            "y": 16
-                          },
-                          {
-                            "x": 40.5,
-                            "y": 19
                           },
                           {
                             "x": 43,
@@ -1528,7 +1512,7 @@
               "parameters": [
                 "NewSprite2",
                 "Physics2",
-                "(DistanceBetweenPositions3D(NewSprite2.X(), NewSprite2.Y(), 0, CursorX(), CursorY(), 0))/10",
+                "(DistanceBetweenPositions3D(NewSprite2.X(), NewSprite2.Y(), 0, CursorX(), CursorY(), 0))/20",
                 "MouseX(\"\",0)",
                 "MouseY(\"\",0)",
                 "NewSprite2.PointX(\"points\")",
@@ -1581,6 +1565,39 @@
                 "NewSprite2",
                 "=",
                 "137"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::AngularVelocity"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
               ]
             }
           ]
