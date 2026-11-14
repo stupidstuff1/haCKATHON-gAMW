@@ -1582,14 +1582,6 @@
             },
             {
               "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "2"
-              ]
-            },
-            {
-              "type": {
                 "value": "SetY"
               },
               "parameters": [
@@ -1606,6 +1598,32 @@
                 "NewSprite2",
                 "=",
                 "123"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetStatic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetDynamic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
               ]
             }
           ]
