@@ -2276,7 +2276,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8081094648115793,
+        "zoomFactor": 0.9227465364204578,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2685,6 +2685,15 @@
                 "=",
                 "(\"Clicks: \") + ToString(clicks)"
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "NewSprite6",
+                ""
+              ]
             }
           ]
         },
@@ -2863,6 +2872,15 @@
                 "NewSprite2",
                 "Physics2"
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "NewSprite6",
+                ""
+              ]
             }
           ]
         },
@@ -2882,6 +2900,62 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "NewSprite9",
+                "NewSprite6.X()-20",
+                "NewSprite6.Y()-100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "NewSprite6"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "NewSprite2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "NewSprite9",
+                "Resizable",
+                "NewSprite6.Height()",
+                "NewSprite6.Width()"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+              },
+              "parameters": [
+                "NewSprite9",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -3016,6 +3090,15 @@
                 "NewSprite2",
                 "=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "NewSprite6",
+                ""
               ]
             }
           ]
@@ -3581,7 +3664,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5800155239904861,
+        "zoomFactor": 0.41630252177333277,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4199,6 +4282,72 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "NewSprite9",
+                "NewSprite6.X()-20",
+                "NewSprite6.Y()-100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "NewSprite6"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "NewSprite2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+              },
+              "parameters": [
+                "NewSprite9",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "NewSprite9",
+                "Resizable",
+                "NewSprite6.Height()",
+                "NewSprite6.Width()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"win\"",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
