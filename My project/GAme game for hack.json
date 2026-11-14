@@ -1137,12 +1137,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
+                        "x": 5.5,
+                        "y": 19
+                      },
+                      {
+                        "x": 16,
                         "y": 0
                       },
                       {
-                        "x": 17,
-                        "y": 0
+                        "x": 25.5,
+                        "y": 19
                       },
                       {
                         "x": 32,
@@ -1214,7 +1218,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3645833333333333,
+        "zoomFactor": 0.4303403802207651,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1232,25 +1236,25 @@
           "name": "NewSprite2",
           "persistentUuid": "729803ff-4a10-4289-8604-a585f104b270",
           "width": 168,
-          "x": 26,
-          "y": 743,
+          "x": 132,
+          "y": 429,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 2,
           "customSize": true,
           "depth": 1,
-          "height": 146,
+          "height": 157,
           "keepRatio": true,
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "a97055cd-27e8-46af-8498-e83ae36b3f03",
-          "width": 1937,
-          "x": -12,
-          "y": 941,
+          "width": 2082,
+          "x": -114,
+          "y": 869,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
