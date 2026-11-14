@@ -767,16 +767,6 @@
         "name": "New Piskel-1.png(3).png",
         "smoothed": false,
         "userAdded": false
-      },
-      {
-        "file": "Instrument2.m4a",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Instrument2.m4a",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
       }
     ]
   },
@@ -2382,39 +2372,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "volumeslider",
-          "persistentUuid": "8b67df58-192f-44c5-bbe8-a91ab9274a5d",
-          "width": 0,
-          "x": 666,
-          "y": 179,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 4,
-          "customSize": true,
-          "depth": 6,
-          "height": 417,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite10",
-          "persistentUuid": "295a0439-a37b-416a-af46-e8e5cbefba12",
-          "width": 417,
-          "x": 745,
-          "y": -122,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -2618,16 +2575,6 @@
               "parameters": [
                 "",
                 "1",
-                "=",
-                "volumeslider.Value()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "volumelevel",
                 "=",
                 "volumeslider.Value()"
               ]
@@ -3665,14 +3612,13 @@
           "actions": [
             {
               "type": {
-                "value": "PlaySoundOnChannel"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "Instrument2.m4a",
-                "1",
+                "Instrument.m4a",
                 "yes",
-                "volumeslider.Value()",
+                "",
                 ""
               ]
             }
@@ -5096,6 +5042,33 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Instrument.m4a",
+                "yes",
+                "",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -6374,6 +6347,33 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Instrument.m4a",
+                "yes",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
         }
@@ -7601,6 +7601,33 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Instrument.m4a",
+                "yes",
+                "",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -8457,6 +8484,33 @@
               "parameters": [
                 "NewSprite2",
                 "Physics2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Instrument.m4a",
+                "yes",
+                "",
+                ""
               ]
             }
           ]
@@ -10188,6 +10242,33 @@
               "parameters": [
                 "NewSprite2",
                 "Physics2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Instrument.m4a",
+                "yes",
+                "",
+                ""
               ]
             }
           ]
@@ -12000,7 +12081,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "20"
+                "30"
               ]
             },
             {
@@ -12016,61 +12097,8 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "NewSprite11",
-                "NewSprite10",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level Backrooms\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "NewSprite11",
-                "NewSprite6",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"win5\"",
-                ""
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -12222,7 +12250,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41630252177333305,
+        "zoomFactor": 0.5250860067782507,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
