@@ -357,14 +357,6 @@
         "name": "NewSprite9",
         "smoothed": false,
         "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite33.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/NewSprite33.png",
-        "smoothed": false,
-        "userAdded": false
       }
     ]
   },
@@ -2422,7 +2414,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5079575118131731,
+        "zoomFactor": 0.3645833333333333,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2451,14 +2443,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 399,
+          "height": 349,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite9",
-          "persistentUuid": "cd2e3a51-e3a6-4c46-bc03-7571f2d9201d",
-          "width": 437,
-          "x": 765,
-          "y": 766,
+          "persistentUuid": "207869ab-b7e0-442c-b307-2fefc560f703",
+          "width": 359,
+          "x": 820,
+          "y": 798,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -2538,16 +2530,17 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "NewSprite9",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/NewSprite33.png",
+                      "image": "NewSprite9",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
