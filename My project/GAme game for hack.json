@@ -767,6 +767,16 @@
         "name": "New Piskel-1.png(3).png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Instrument (mp3cut.net)(2).m4a",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Instrument (mp3cut.net)(2).m4a",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -11810,13 +11820,12 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "Physics2::CollisionStarted"
               },
               "parameters": [
-                "NewSprite11",
+                "NewSprite2",
+                "Physics2",
                 "NewSprite6",
-                "",
-                "",
                 ""
               ]
             }
@@ -11828,7 +11837,7 @@
               },
               "parameters": [
                 "",
-                "\"win5\"",
+                "\"win4\"",
                 ""
               ]
             }
@@ -12074,7 +12083,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "20"
+                "30"
               ]
             },
             {
@@ -12100,18 +12109,13 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01KRZA7GK1WW3NBFBXHAZN7BKY",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "SceneJustBegins"
               },
               "parameters": [
-                "NewSprite11",
-                "NewSprite10",
-                "",
-                "",
                 ""
               ]
             }
@@ -12119,20 +12123,17 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "\"Level Backrooms\"",
-                ""
+                "Instrument (mp3cut.net)(2).m4a",
+                "yes",
+                "",
+                "0.7"
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -13507,6 +13508,33 @@
               "parameters": [
                 "NewSprite2",
                 "Physics2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Instrument.m4a",
+                "yes",
+                "",
+                ""
               ]
             }
           ]
