@@ -705,6 +705,14 @@
         "name": "NewSprite37",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite42.png\"}",
+        "name": "NewSprite38",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -10016,7 +10024,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.44485159988866657,
+        "zoomFactor": 0.6197916666666687,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -10644,7 +10652,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite37",
+                      "image": "NewSprite38",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
