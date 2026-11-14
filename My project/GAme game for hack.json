@@ -334,7 +334,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.37687720367508776,
+        "zoomFactor": 0.6622955665506389,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -505,8 +505,8 @@
           "name": "NewSprite6",
           "persistentUuid": "1054cc2a-ef21-435a-833d-a15782ecdcf1",
           "width": 375,
-          "x": 1628,
-          "y": 730,
+          "x": 1665,
+          "y": 794,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -1421,14 +1421,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 13,
+                        "y": 14.5
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 40,
+                        "y": 14
                       },
                       "customCollisionMask": [
                         [
@@ -1549,26 +1549,6 @@
             },
             {
               "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "NewSprite2",
-                "=",
-                "123"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "NewSprite2",
-                "=",
-                "137"
-              ]
-            },
-            {
-              "type": {
                 "value": "Physics2::LinearVelocityX"
               },
               "parameters": [
@@ -1599,8 +1579,53 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "137"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "123"
+              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "NewSprite6",
+                ""
+              ]
+            }
+          ],
+          "actions": []
         }
       ],
       "layers": [
