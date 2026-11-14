@@ -9798,22 +9798,6 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite2",
-          "persistentUuid": "402a4fc5-994f-43c7-9e12-b7082ff18d95",
-          "width": 0,
-          "x": 614,
-          "y": 470,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "NewSprite10",
           "persistentUuid": "69425773-7b76-4793-9996-fe7f0928fdac",
           "width": 0,
@@ -9837,6 +9821,22 @@
           "x": 867,
           "y": 235,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite11",
+          "persistentUuid": "0edc648d-df11-4e0b-8d92-445b1945ab16",
+          "width": 0,
+          "x": 496,
+          "y": 689,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9938,6 +9938,83 @@
               "type": "PathfindingBehavior::PathfindingObstacleBehavior"
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite11",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "deceleration": 800,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 400,
+              "movementAngleOffset": 0,
+              "name": "TopDownMovement",
+              "rotateObject": true,
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "useLegacyTurnBack": false,
+              "viewpoint": "TopDown"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "New Piskel-1.png(1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 3,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -9948,6 +10025,9 @@
           },
           {
             "objectName": "NewTiledSprite3"
+          },
+          {
+            "objectName": "NewSprite11"
           }
         ]
       },
@@ -10140,6 +10220,7 @@
           "conditions": [
             {
               "type": {
+                "inverted": true,
                 "value": "SceneJustBegins"
               },
               "parameters": [
@@ -10156,8 +10237,8 @@
                 "NewSprite10",
                 "Pathfinding",
                 "",
-                "NewSprite2.X()",
-                "NewSprite2.Y()"
+                "NewSprite11.X()",
+                "NewSprite11.Y()"
               ]
             }
           ]
@@ -10282,6 +10363,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
     }
