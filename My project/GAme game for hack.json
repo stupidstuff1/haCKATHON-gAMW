@@ -210,14 +210,7 @@
       "persistentUuid": "169206b2-da2b-49c9-89ee-20306e51dd34",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "Variable",
-          "persistentUuid": "48776c9a-54bb-49b7-a746-1ed0993415b8",
-          "type": "number",
-          "value": 0
-        }
-      ],
+      "variables": [],
       "effects": [],
       "behaviors": [
         {
@@ -738,7 +731,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5610952083582069,
+        "zoomFactor": 0.44485159988866496,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
