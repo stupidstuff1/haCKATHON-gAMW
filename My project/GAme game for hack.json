@@ -5436,6 +5436,14 @@
                 "=",
                 "(\"Clicks: \") + ToString(clicks)"
               ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
             }
           ]
         },
@@ -5486,38 +5494,7 @@
             },
             {
               "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "NewSprite2",
-                "=",
-                "123"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "NewSprite2",
-                "=",
-                "137"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "NewSprite2",
-                "Physics2",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
+                "value": "Physics2::AngularVelocity"
               },
               "parameters": [
                 "NewSprite2",
@@ -5536,24 +5513,53 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Physics2::SetDynamic"
               },
               "parameters": [
-                "NewText",
-                "Text",
-                "=",
-                "(\"Clicks: \") + ToString(clicks)"
+                "NewSprite2",
+                "Physics2"
               ]
             },
             {
               "type": {
-                "value": "Physics2::AngularVelocity"
+                "value": "Physics2::LinearVelocityX"
               },
               "parameters": [
                 "NewSprite2",
                 "Physics2",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "119"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "93"
               ]
             },
             {
@@ -5568,11 +5574,13 @@
             },
             {
               "type": {
-                "value": "Physics2::SetDynamic"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "NewSprite2",
-                "Physics2"
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
               ]
             }
           ]
@@ -5726,6 +5734,17 @@
             },
             {
               "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
+            },
+            {
+              "type": {
                 "value": "Physics2::LinearVelocityX"
               },
               "parameters": [
@@ -5753,7 +5772,7 @@
               "parameters": [
                 "NewSprite2",
                 "=",
-                "137"
+                "119"
               ]
             },
             {
@@ -5763,7 +5782,7 @@
               "parameters": [
                 "NewSprite2",
                 "=",
-                "123"
+                "93"
               ]
             },
             {
