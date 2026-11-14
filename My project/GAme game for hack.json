@@ -1372,7 +1372,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NewSprite6",
           "persistentUuid": "e8a1b649-8720-42a0-ac97-5880b928122a",
@@ -1388,11 +1388,11 @@
               "bullet": false,
               "fixedRotation": false,
               "canSleep": true,
-              "shape": "Box",
-              "shapeDimensionA": 30,
-              "shapeDimensionB": 38,
-              "shapeOffsetX": -5,
-              "shapeOffsetY": 1,
+              "shape": "Polygon",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
               "polygonOrigin": "Center",
               "vertices": [],
               "density": 1,
@@ -1433,12 +1433,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 11,
+                            "x": 13.5,
+                            "y": 20
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 17.5
+                          },
+                          {
+                            "x": 19.5,
                             "y": 15
                           },
                           {
-                            "x": 43,
+                            "x": 34,
                             "y": 15
+                          },
+                          {
+                            "x": 37,
+                            "y": 16
+                          },
+                          {
+                            "x": 40.5,
+                            "y": 19
                           },
                           {
                             "x": 43,
