@@ -11810,12 +11810,13 @@
           "conditions": [
             {
               "type": {
-                "value": "Physics2::CollisionStarted"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "NewSprite2",
-                "Physics2",
+                "NewSprite11",
                 "NewSprite6",
+                "",
+                "",
                 ""
               ]
             }
@@ -11827,7 +11828,7 @@
               },
               "parameters": [
                 "",
-                "\"win4\"",
+                "\"win5\"",
                 ""
               ]
             }
@@ -12081,7 +12082,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "30"
+                "20"
               ]
             },
             {
@@ -12090,6 +12091,36 @@
               },
               "parameters": [
                 "NewSprite6",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KRZA7GK1WW3NBFBXHAZN7BKY",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NewSprite11",
+                "NewSprite10",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level Backrooms\"",
                 ""
               ]
             }
