@@ -2999,6 +2999,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 91,
+          "customSize": true,
+          "depth": 4,
+          "height": 131,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "2b37a6f1-af9c-4743-9241-009ad13d18c0",
+          "width": 131,
+          "x": 306,
+          "y": 102,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
