@@ -317,6 +317,14 @@
         "name": "assets/NewSprite27.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite4",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -326,7 +334,7 @@
       "height": 100,
       "name": "NewTiledSprite",
       "persistentUuid": "2d8f6018-549c-4119-9df1-c82caec11f35",
-      "texture": "NewTiledSprite3",
+      "texture": "NewTiledSprite4",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 100,
       "variables": [
