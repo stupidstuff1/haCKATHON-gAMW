@@ -2808,6 +2808,15 @@
                 "",
                 "\"Left\""
               ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
             }
           ],
           "actions": [
