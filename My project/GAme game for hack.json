@@ -349,6 +349,14 @@
         "name": "NewSprite31.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite32.png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -2417,16 +2425,33 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 9,
-          "height": 1126,
+          "depth": 7,
+          "height": 935,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite6",
           "persistentUuid": "73eae161-ef59-4d23-86ba-5f57a9ed445b",
-          "width": 1126,
-          "x": 376,
-          "y": 1,
+          "width": 935,
+          "x": 490,
+          "y": -6,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 349,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite9",
+          "persistentUuid": "207869ab-b7e0-442c-b307-2fefc560f703",
+          "width": 359,
+          "x": 820,
+          "y": 798,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2493,6 +2518,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite9",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite9",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 19
+                          },
+                          {
+                            "x": 50,
+                            "y": 19
+                          },
+                          {
+                            "x": 50,
+                            "y": 44
+                          },
+                          {
+                            "x": 2,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2500,14 +2586,49 @@
         "children": [
           {
             "objectName": "NewSprite6"
+          },
+          {
+            "objectName": "NewSprite9"
           }
         ]
       },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "NewSprite9",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"level 2\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
