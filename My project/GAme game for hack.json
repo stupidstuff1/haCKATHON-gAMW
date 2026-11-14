@@ -4865,10 +4865,23 @@
             },
             {
               "type": {
-                "value": "Wait"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "0.3"
+                "clicks",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
               ]
             }
           ]
@@ -4920,7 +4933,38 @@
             },
             {
               "type": {
-                "value": "Physics2::AngularVelocity"
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "123"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "137"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
               },
               "parameters": [
                 "NewSprite2",
@@ -4939,53 +4983,43 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::AngularVelocity"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "Physics2::SetDynamic"
               },
               "parameters": [
                 "NewSprite2",
                 "Physics2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "NewSprite2",
-                "Physics2",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "NewSprite2",
-                "Physics2",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "NewSprite2",
-                "=",
-                "137"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "NewSprite2",
-                "=",
-                "123"
               ]
             }
           ]
@@ -5035,22 +5069,51 @@
           "actions": [
             {
               "type": {
-                "value": "ChangeSprite"
+                "value": "Physics2::SetDynamic"
               },
               "parameters": [
                 "NewSprite2",
-                "=",
-                "2"
+                "Physics2"
               ]
             },
             {
               "type": {
-                "value": "SetX"
+                "value": "Physics2::AngularVelocity"
               },
               "parameters": [
                 "NewSprite2",
+                "Physics2",
                 "=",
-                "123"
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
               ]
             },
             {
@@ -5087,45 +5150,17 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "clicks",
-                "=",
-                "10"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::AngularVelocity"
+                "value": "SetX"
               },
               "parameters": [
                 "NewSprite2",
-                "Physics2",
                 "=",
-                "0"
+                "123"
               ]
             },
             {
               "type": {
                 "value": "Physics2::SetStatic"
-              },
-              "parameters": [
-                "NewSprite2",
-                "Physics2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::SetDynamic"
               },
               "parameters": [
                 "NewSprite2",
@@ -5140,6 +5175,16 @@
                 "NewSprite2",
                 "=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "2"
               ]
             }
           ]
