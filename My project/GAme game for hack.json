@@ -393,6 +393,78 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Kenney/787adbbfd4d93e6a2f33d7b20115926d950e35c177ca2e699370ec02504c53be_Rounded Square Yellow Fill Bar.png",
           "name": "Rounded Square Yellow Fill Bar.png"
         }
+      },
+      {
+        "file": "pipe0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pipe0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pipe1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pipe1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pipe2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pipe2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pipe3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pipe3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pipe4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pipe4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pipe5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pipe5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pipe6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pipe6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pipe7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pipe7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NewSprite25.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -1463,6 +1535,319 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite9",
+      "persistentUuid": "c4a9c599-f9ed-4926-8c9e-e681f0aaa2f3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pipe0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 64
+                      },
+                      {
+                        "x": 16,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pipe1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 64
+                      },
+                      {
+                        "x": 16,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pipe2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 64
+                      },
+                      {
+                        "x": 16,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pipe3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 64
+                      },
+                      {
+                        "x": 16,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pipe4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 64
+                      },
+                      {
+                        "x": 16,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pipe5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 64
+                      },
+                      {
+                        "x": 16,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pipe6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 64
+                      },
+                      {
+                        "x": 16,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pipe7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 64
+                      },
+                      {
+                        "x": 16,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1497,6 +1882,9 @@
       },
       {
         "objectName": "NewSprite6"
+      },
+      {
+        "objectName": "NewSprite9"
       }
     ]
   },
@@ -1532,7 +1920,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4303403802207651,
+        "zoomFactor": 0.40272258333259103,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1880,7 +2268,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.459852142673634,
+        "zoomFactor": 0.8081094648115793,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2439,7 +2827,7 @@
               "parameters": [
                 "clicks",
                 "=",
-                "5"
+                "10"
               ]
             },
             {
@@ -2583,7 +2971,7 @@
               "parameters": [
                 "clicks",
                 "=",
-                "5"
+                "10"
               ]
             },
             {
@@ -7666,23 +8054,6 @@
           "width": 88,
           "x": 769,
           "y": 921,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 360,
-          "customSize": true,
-          "depth": 3,
-          "height": 88,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite5",
-          "persistentUuid": "3977ebae-f363-40fa-aa26-78f907cccebd",
-          "width": 88,
-          "x": 846,
-          "y": 916,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
