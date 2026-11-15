@@ -2193,22 +2193,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "05b0eb2d13ff37b70927d0184d4705e9c39c0b8fece7463127c4fe9eb65bb422",
-      "name": "volumeslider",
-      "persistentUuid": "cd72919c-f7bc-4166-bda4-af04be56777b",
-      "type": "PanelSpriteSlider::PanelSpriteSlider",
-      "variant": "Small Plastic Green Round Slider",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LabelMargin": 8,
-        "BarLeftPadding": 31,
-        "BarRightPadding": 31,
-        "StepSize": 1
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -2243,9 +2227,6 @@
       },
       {
         "objectName": "NewSprite6"
-      },
-      {
-        "objectName": "volumeslider"
       },
       {
         "objectName": "NewSprite9"
@@ -2291,7 +2272,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.40272258333259103,
+        "zoomFactor": 0.444851599888665,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -12400,6 +12381,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
