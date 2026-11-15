@@ -799,6 +799,14 @@
         "name": "default2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -2410,6 +2418,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite11",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite11",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2458,6 +2527,9 @@
         "objectName": "NewSprite45"
       },
       {
+        "objectName": "NewSprite11"
+      },
+      {
         "objectName": "NewSprite9"
       }
     ]
@@ -2501,7 +2573,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.40272258333259103,
+        "zoomFactor": 0.22169247275005158,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2526,8 +2598,8 @@
           "name": "NewSprite2",
           "persistentUuid": "729803ff-4a10-4289-8604-a585f104b270",
           "width": 116,
-          "x": 132,
-          "y": 478,
+          "x": 2289,
+          "y": 440,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2537,14 +2609,14 @@
           "angle": 7,
           "customSize": true,
           "depth": 1,
-          "height": 157,
+          "height": 179,
           "keepRatio": true,
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "a97055cd-27e8-46af-8498-e83ae36b3f03",
-          "width": 2082,
-          "x": -114,
-          "y": 797,
+          "width": 2371,
+          "x": -403,
+          "y": 787,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -2614,6 +2686,23 @@
           "x": 414,
           "y": 135,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 218,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite11",
+          "persistentUuid": "3dba38c7-e19c-4ace-bc3c-4df0bf1f1fc5",
+          "width": 4755,
+          "x": 381,
+          "y": 1127,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2861,6 +2950,37 @@
                 "volumelevel",
                 "=",
                 "volumeslider.Value()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NewSprite2",
+                "NewSprite11",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "-210",
+                "=",
+                "210"
               ]
             }
           ]
@@ -13800,7 +13920,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.40272258333259103,
+        "zoomFactor": 0.3088741216342653,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -13836,14 +13956,14 @@
           "angle": 7,
           "customSize": true,
           "depth": 1,
-          "height": 157,
+          "height": 181,
           "keepRatio": true,
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "a97055cd-27e8-46af-8498-e83ae36b3f03",
-          "width": 2082,
-          "x": -114,
-          "y": 797,
+          "width": 2406,
+          "x": -438,
+          "y": 785,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -13913,6 +14033,23 @@
           "x": 402,
           "y": 108,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite11",
+          "persistentUuid": "52a7f672-f9ac-42e8-bb38-8c93decacc61",
+          "width": 4478,
+          "x": 316,
+          "y": 1122,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14164,6 +14301,42 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NewSprite2",
+                "NewSprite11",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "-210",
+                "=",
+                "210"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
