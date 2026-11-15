@@ -809,18 +809,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/default3.png",
+        "file": "NewSprite43.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "default3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/default4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "default4",
+        "metadata": "",
+        "name": "NewSprite43.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -2271,7 +2263,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "default4",
+                  "image": "default",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2287,20 +2279,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3,
+                        "x": 4,
                         "y": 0
                       },
                       {
-                        "x": 125,
+                        "x": 122,
                         "y": 0
                       },
                       {
-                        "x": 125,
-                        "y": 113
+                        "x": 122,
+                        "y": 119
                       },
                       {
-                        "x": 3,
-                        "y": 113
+                        "x": 4,
+                        "y": 119
                       }
                     ]
                   ]
@@ -2439,7 +2431,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite11",
-      "persistentUuid": "d029d481-ff30-4617-a7a7-ad5ea8edf520",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2487,6 +2478,67 @@
                       {
                         "x": 0,
                         "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "trajectory",
+      "persistentUuid": "ca107d24-e0c1-4553-90bb-5df270691ca1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite43.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 324,
+                        "y": 0
+                      },
+                      {
+                        "x": 324,
+                        "y": 50
+                      },
+                      {
+                        "x": 0,
+                        "y": 50
                       }
                     ]
                   ]
@@ -2548,6 +2600,9 @@
       },
       {
         "objectName": "NewSprite9"
+      },
+      {
+        "objectName": "trajectory"
       }
     ]
   },
@@ -2590,7 +2645,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.22169247275005158,
+        "zoomFactor": 0.416302521773333,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2693,23 +2748,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 6,
-          "height": 239,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite45",
-          "persistentUuid": "e614a2cb-7ef5-4efd-92b6-707a582c903e",
-          "width": 1195,
-          "x": 414,
-          "y": 135,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 218,
           "keepRatio": true,
@@ -2720,6 +2758,23 @@
           "x": 381,
           "y": 1127,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 178,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trajectory",
+          "persistentUuid": "1ca2f54d-6e4b-4fe8-b438-c442993922d0",
+          "width": 1246,
+          "x": 401,
+          "y": 143,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2955,18 +3010,8 @@
                 "Instrument.m4a",
                 "1",
                 "yes",
-                "volumeslider.Value()",
+                "100",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "volumelevel",
-                "=",
-                "volumeslider.Value()"
               ]
             }
           ]
@@ -3536,7 +3581,7 @@
               "parameters": [
                 "clicks",
                 "=",
-                "5"
+                "3"
               ]
             },
             {
@@ -3721,7 +3766,7 @@
               "parameters": [
                 "clicks",
                 "=",
-                "10"
+                "3"
               ]
             },
             {
@@ -3930,7 +3975,7 @@
               "parameters": [
                 "clicks",
                 "=",
-                "10"
+                "3"
               ]
             },
             {
