@@ -775,6 +775,30 @@
         "name": "assets/NewSprite27",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/NewSprite28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default2",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -2217,11 +2241,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite7",
+                  "image": "default",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2237,7 +2262,7 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 5,
+                        "x": 4,
                         "y": 0
                       },
                       {
@@ -2249,7 +2274,7 @@
                         "y": 119
                       },
                       {
-                        "x": 5,
+                        "x": 4,
                         "y": 119
                       }
                     ]
@@ -2322,6 +2347,68 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite45",
+      "persistentUuid": "088acc2d-095a-493b-94b9-65d0e7a241cd",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets/NewSprite27",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/NewSprite28",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 193,
+                        "y": 0
+                      },
+                      {
+                        "x": 193,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2365,6 +2452,9 @@
       },
       {
         "objectName": "NewSprite9_next"
+      },
+      {
+        "objectName": "NewSprite45"
       },
       {
         "objectName": "NewSprite9"
@@ -2509,6 +2599,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 6,
+          "height": 239,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite45",
+          "persistentUuid": "e614a2cb-7ef5-4efd-92b6-707a582c903e",
+          "width": 1195,
+          "x": 416,
+          "y": 123,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2633,67 +2740,6 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite11",
-          "persistentUuid": "088acc2d-095a-493b-94b9-65d0e7a241cd",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/NewSprite27.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 3
-                          },
-                          {
-                            "x": 63,
-                            "y": 3
-                          },
-                          {
-                            "x": 63,
-                            "y": 35
-                          },
-                          {
-                            "x": 1,
-                            "y": 35
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2701,9 +2747,6 @@
         "children": [
           {
             "objectName": "NewSprite6"
-          },
-          {
-            "objectName": "NewSprite11"
           },
           {
             "objectName": "NewSprite10"
@@ -4036,23 +4079,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 7,
-          "height": 935,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite6",
-          "persistentUuid": "73eae161-ef59-4d23-86ba-5f57a9ed445b",
-          "width": 935,
-          "x": 490,
-          "y": -6,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 349,
           "keepRatio": true,
@@ -4063,6 +4089,23 @@
           "x": 820,
           "y": 798,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 813,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite67_you_win",
+          "persistentUuid": "4e2d63ec-525f-4ea0-917a-6f44036b9bb3",
+          "width": 833,
+          "x": 566,
+          "y": 32,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5425,23 +5468,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 7,
-          "height": 935,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite6",
-          "persistentUuid": "73eae161-ef59-4d23-86ba-5f57a9ed445b",
-          "width": 935,
-          "x": 490,
-          "y": -6,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 349,
           "keepRatio": true,
@@ -5475,11 +5501,12 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite7",
+                      "image": "default2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8739,23 +8766,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 7,
-          "height": 935,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite6",
-          "persistentUuid": "73eae161-ef59-4d23-86ba-5f57a9ed445b",
-          "width": 935,
-          "x": 490,
-          "y": -6,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 349,
           "keepRatio": true,
@@ -8766,6 +8776,23 @@
           "x": 820,
           "y": 798,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 7,
+          "height": 885,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite67_you_win",
+          "persistentUuid": "3c45d7dc-42da-4471-885d-2fa7dce373fa",
+          "width": 885,
+          "x": 547,
+          "y": -65,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10438,23 +10465,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 7,
-          "height": 935,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite6",
-          "persistentUuid": "73eae161-ef59-4d23-86ba-5f57a9ed445b",
-          "width": 935,
-          "x": 490,
-          "y": -6,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 349,
           "keepRatio": true,
@@ -10465,6 +10475,23 @@
           "x": 820,
           "y": 798,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 7,
+          "height": 869,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite67_you_win",
+          "persistentUuid": "2b8ad776-8abd-4a53-852c-1e0e704e9b5f",
+          "width": 869,
+          "x": 530,
+          "y": -14,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10800,23 +10827,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 7,
-          "height": 935,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite6",
-          "persistentUuid": "73eae161-ef59-4d23-86ba-5f57a9ed445b",
-          "width": 935,
-          "x": 490,
-          "y": -6,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 349,
           "keepRatio": true,
@@ -10827,6 +10837,23 @@
           "x": 820,
           "y": 798,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 6,
+          "height": 797,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite67_you_win",
+          "persistentUuid": "b4bc9cfd-e6be-45dc-8452-8b31dfa11978",
+          "width": 797,
+          "x": 583,
+          "y": -3,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13702,8 +13729,8 @@
           "name": "NewSprite6",
           "persistentUuid": "690a796c-1ebf-45d4-8af7-95425154cdc5",
           "width": 606,
-          "x": 630,
-          "y": 364,
+          "x": 636,
+          "y": 557,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -13722,6 +13749,23 @@
           "x": 1579,
           "y": 0,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 6,
+          "height": 239,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite45",
+          "persistentUuid": "4e0b0c68-cfba-4411-8e8b-4e47da18ad27",
+          "width": 1195,
+          "x": 402,
+          "y": 108,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
