@@ -9772,23 +9772,6 @@
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite5",
-          "persistentUuid": "39fab4cd-2558-4d17-a745-7447d3fbb1ae",
-          "width": 88,
-          "x": 1797,
-          "y": 687,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 271,
-          "customSize": true,
-          "depth": 3,
-          "height": 88,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite5",
           "persistentUuid": "068d45fd-491c-43db-b05d-bb137165a0ba",
           "width": 88,
           "x": 1797,
@@ -9825,9 +9808,26 @@
           "name": "NewText",
           "persistentUuid": "b53e8971-0d5c-47b9-9611-6a50e4e9efa3",
           "width": 184,
-          "x": 32,
-          "y": 20,
+          "x": 211,
+          "y": 162,
           "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 269,
+          "customSize": true,
+          "depth": 3,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite9",
+          "persistentUuid": "6de58cad-5ff2-46ff-b263-30751b46db16",
+          "width": 96,
+          "x": 1795,
+          "y": 680,
+          "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9842,7 +9842,31 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
           "animations": [
             {
               "name": "NewSprite9",
@@ -9855,7 +9879,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite11",
+                      "image": "New Piskel-2.png(1).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9871,20 +9895,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7,
-                            "y": 13
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 50,
-                            "y": 13
+                            "x": 32,
+                            "y": 0
                           },
                           {
-                            "x": 50,
-                            "y": 53
+                            "x": 32,
+                            "y": 32
                           },
                           {
-                            "x": 7,
-                            "y": 53
+                            "x": 0,
+                            "y": 32
                           }
                         ]
                       ]
@@ -10380,6 +10404,159 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::CollisionStarted"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "NewSprite9",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::AngularVelocity"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetStatic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetDynamic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "137"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "123"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level Backrooms\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -11496,8 +11673,8 @@
           "name": "NewSprite6",
           "persistentUuid": "2de482ef-20f5-4a2e-aabe-8f7927dab111",
           "width": 0,
-          "x": 1810,
-          "y": 50,
+          "x": 2049,
+          "y": -165,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -12178,14 +12355,6 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "NewSprite6"
-              ]
-            },
-            {
-              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -12194,11 +12363,22 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "SetX"
               },
               "parameters": [
                 "NewSprite6",
-                ""
+                "=",
+                "1828"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite6",
+                "=",
+                "45"
               ]
             }
           ]
