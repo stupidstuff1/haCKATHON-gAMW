@@ -9663,23 +9663,6 @@
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite5",
-          "persistentUuid": "39fab4cd-2558-4d17-a745-7447d3fbb1ae",
-          "width": 88,
-          "x": 1797,
-          "y": 687,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 271,
-          "customSize": true,
-          "depth": 3,
-          "height": 88,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite5",
           "persistentUuid": "068d45fd-491c-43db-b05d-bb137165a0ba",
           "width": 88,
           "x": 1797,
@@ -9722,6 +9705,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 271,
+          "customSize": true,
+          "depth": 2,
+          "height": 86,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite9",
+          "persistentUuid": "e578a9b8-a73c-4aa4-af7f-bcc22cffbe59",
+          "width": 86,
+          "x": 1807,
+          "y": 679,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -9746,7 +9746,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite11",
+                      "image": "New Piskel-2.png(1).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9762,20 +9762,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7,
-                            "y": 13
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 50,
-                            "y": 13
+                            "x": 32,
+                            "y": 0
                           },
                           {
-                            "x": 50,
-                            "y": 53
+                            "x": 32,
+                            "y": 32
                           },
                           {
-                            "x": 7,
-                            "y": 53
+                            "x": 0,
+                            "y": 32
                           }
                         ]
                       ]
@@ -10271,6 +10271,40 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NewSprite2",
+                "NewSprite9",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level Backrooms\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
