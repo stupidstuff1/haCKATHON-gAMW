@@ -9904,23 +9904,6 @@
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite5",
-          "persistentUuid": "39fab4cd-2558-4d17-a745-7447d3fbb1ae",
-          "width": 88,
-          "x": 1797,
-          "y": 687,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 271,
-          "customSize": true,
-          "depth": 3,
-          "height": 88,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite5",
           "persistentUuid": "068d45fd-491c-43db-b05d-bb137165a0ba",
           "width": 88,
           "x": 1797,
@@ -9960,6 +9943,23 @@
           "x": 32,
           "y": 20,
           "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 2,
+          "height": 85,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite10",
+          "persistentUuid": "577fd5a8-0b4d-4336-8d13-fce1a3095d0d",
+          "width": 85,
+          "x": 1801,
+          "y": 686,
+          "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10069,6 +10069,66 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite10",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "New Piskel-2.png(1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10076,6 +10136,9 @@
         "children": [
           {
             "objectName": "NewSprite9"
+          },
+          {
+            "objectName": "NewSprite10"
           },
           {
             "objectName": "NewText"
@@ -10509,6 +10572,35 @@
                 "yes",
                 "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NewSprite2",
+                "NewSprite10",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level Backrooms\"",
+                "="
               ]
             }
           ]
