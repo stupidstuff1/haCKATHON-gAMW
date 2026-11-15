@@ -839,6 +839,14 @@
         "name": "NewSprite39",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "NewSprite44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite44.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -2287,7 +2295,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "default4",
+                  "image": "NewSprite7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2303,20 +2311,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3,
+                        "x": 5,
                         "y": 0
                       },
                       {
-                        "x": 125,
+                        "x": 122,
                         "y": 0
                       },
                       {
-                        "x": 125,
-                        "y": 113
+                        "x": 122,
+                        "y": 119
                       },
                       {
-                        "x": 3,
-                        "y": 113
+                        "x": 5,
+                        "y": 119
                       }
                     ]
                   ]
@@ -2411,7 +2419,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/NewSprite29",
+                  "image": "NewSprite44.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2427,20 +2435,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 7,
-                        "y": 5
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 518,
-                        "y": 5
+                        "x": 324,
+                        "y": 0
                       },
                       {
-                        "x": 518,
-                        "y": 109
+                        "x": 324,
+                        "y": 50
                       },
                       {
-                        "x": 7,
-                        "y": 109
+                        "x": 0,
+                        "y": 50
                       }
                     ]
                   ]
@@ -14010,7 +14018,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.0078125,
+        "zoomFactor": 0.23350192791628954,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -14225,23 +14233,6 @@
           "x": 1105,
           "y": -477,
           "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 618,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite12",
-          "persistentUuid": "5b5ecc08-ab7e-4fd2-9f39-ccba376e10f2",
-          "width": 720,
-          "x": 515,
-          "y": 139,
-          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -95757,6 +95748,23 @@
           "x": -1101,
           "y": -207999,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 5,
+          "height": 686,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite67_you_win",
+          "persistentUuid": "129430bb-50c8-4079-ba1b-52e3592a06d4",
+          "width": 686,
+          "x": 529,
+          "y": 1,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
