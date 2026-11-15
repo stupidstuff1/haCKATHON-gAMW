@@ -767,72 +767,6 @@
         "name": "New Piskel-1.png(3).png",
         "smoothed": false,
         "userAdded": false
-      },
-      {
-        "file": "Instrument (mp3cut.net)(2).m4a",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Instrument (mp3cut.net)(2).m4a",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite43.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite11",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "pngtree-distress-grainy-dust-overlay-grunge-texture-for-your-design-png-image_9090758.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "pngtree-distress-grainy-dust-overlay-grunge-texture-for-your-design-png-image_9090758.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "dust-overlay-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "dust-overlay-1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite43.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite39",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "NewSprite15-1.png-overlay.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite15-1.png-overlay.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "f93ee3cb85ecafe4ab46045d459959c65336284b-2410376651.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "f93ee3cb85ecafe4ab46045d459959c65336284b-2410376651.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite44.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite40",
-        "smoothed": false,
-        "userAdded": false
       }
     ]
   },
@@ -2241,6 +2175,22 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "05b0eb2d13ff37b70927d0184d4705e9c39c0b8fece7463127c4fe9eb65bb422",
+      "name": "volumeslider",
+      "persistentUuid": "cd72919c-f7bc-4166-bda4-af04be56777b",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "Small Plastic Green Round Slider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LabelMargin": 8,
+        "BarLeftPadding": 31,
+        "BarRightPadding": 31,
+        "StepSize": 1
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2275,6 +2225,9 @@
       },
       {
         "objectName": "NewSprite6"
+      },
+      {
+        "objectName": "volumeslider"
       },
       {
         "objectName": "NewSprite9"
@@ -2320,7 +2273,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.244883836337255,
+        "zoomFactor": 0.40272258333259103,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2345,8 +2298,8 @@
           "name": "NewSprite2",
           "persistentUuid": "729803ff-4a10-4289-8604-a585f104b270",
           "width": 116,
-          "x": 48,
-          "y": 414,
+          "x": 132,
+          "y": 478,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2356,14 +2309,14 @@
           "angle": 7,
           "customSize": true,
           "depth": 1,
-          "height": 169,
+          "height": 157,
           "keepRatio": true,
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "a97055cd-27e8-46af-8498-e83ae36b3f03",
-          "width": 2237,
-          "x": -269,
-          "y": 791,
+          "width": 2082,
+          "x": -114,
+          "y": 797,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -2396,8 +2349,8 @@
           "name": "NewSprite6",
           "persistentUuid": "690a796c-1ebf-45d4-8af7-95425154cdc5",
           "width": 360,
-          "x": 811,
-          "y": 416,
+          "x": 797,
+          "y": 358,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2419,40 +2372,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 3,
-          "height": 155,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite11",
-          "persistentUuid": "7d239dc5-bea7-4144-ad89-5e2cf210e2b3",
-          "width": 1085,
-          "x": 502,
-          "y": 97,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 600,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite12",
-          "persistentUuid": "e331a173-0f4f-41a1-a9bb-1ba95c552e43",
-          "width": 7088,
-          "x": -910,
-          "y": 1095,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -2460,6 +2379,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "NewSprite6",
+          "persistentUuid": "3a7e12ce-d92b-4e7f-aa24-01f52fb4221d",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2576,128 +2496,6 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite11",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite11",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite11",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 324,
-                            "y": 0
-                          },
-                          {
-                            "x": 324,
-                            "y": 50
-                          },
-                          {
-                            "x": 0,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite12",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite12",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite40",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2708,12 +2506,6 @@
           },
           {
             "objectName": "NewSprite10"
-          },
-          {
-            "objectName": "NewSprite11"
-          },
-          {
-            "objectName": "NewSprite12"
           }
         ]
       },
@@ -2824,37 +2616,6 @@
                 "volumelevel",
                 "=",
                 "volumeslider.Value()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "NewSprite2",
-                "NewSprite12",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "NewSprite2",
-                "=",
-                "-110",
-                "=",
-                "400"
               ]
             }
           ]
@@ -3168,8 +2929,8 @@
           "name": "NewSprite6",
           "persistentUuid": "1054cc2a-ef21-435a-833d-a15782ecdcf1",
           "width": 375,
-          "x": 1628,
-          "y": 730,
+          "x": 1626,
+          "y": 645,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -3642,7 +3403,7 @@
                 "",
                 "NewSprite9",
                 "NewSprite6.X()-20",
-                "NewSprite6.Y()-100",
+                "NewSprite6.Y()-20",
                 ""
               ]
             },
@@ -4579,8 +4340,8 @@
           "name": "NewSprite6",
           "persistentUuid": "0e646f53-5957-480f-907f-cd96119a7f74",
           "width": 406,
-          "x": 1546,
-          "y": 688,
+          "x": 1544,
+          "y": 610,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -5051,7 +4812,7 @@
                 "",
                 "NewSprite9",
                 "NewSprite6.X()-20",
-                "NewSprite6.Y()-100",
+                "NewSprite6.Y()-0",
                 ""
               ]
             },
@@ -5917,8 +5678,8 @@
           "name": "NewSprite6",
           "persistentUuid": "476c6099-484e-4ef2-bf08-d540895044ad",
           "width": 392,
-          "x": 1558,
-          "y": -64,
+          "x": 1487,
+          "y": -20,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -6381,7 +6142,7 @@
                 "",
                 "NewSprite9",
                 "NewSprite6.X()-20",
-                "NewSprite6.Y()",
+                "NewSprite6.Y()-30",
                 ""
               ]
             },
@@ -7224,8 +6985,8 @@
           "name": "NewSprite6",
           "persistentUuid": "476c6099-484e-4ef2-bf08-d540895044ad",
           "width": 199,
-          "x": 1716,
-          "y": 865,
+          "x": 1714,
+          "y": 803,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -8114,8 +7875,8 @@
           "name": "NewSprite6",
           "persistentUuid": "476c6099-484e-4ef2-bf08-d540895044ad",
           "width": 107,
-          "x": 16,
-          "y": 77,
+          "x": 37,
+          "y": 73,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -8345,7 +8106,7 @@
               "parameters": [
                 "clicks",
                 "=",
-                "20"
+                "5"
               ]
             },
             {
@@ -8643,7 +8404,7 @@
               "parameters": [
                 "clicks",
                 "=",
-                "20"
+                "5"
               ]
             },
             {
@@ -9259,7 +9020,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5250860067782507,
+        "zoomFactor": 0.49138775453293565,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -9363,7 +9124,7 @@
           "persistentUuid": "476c6099-484e-4ef2-bf08-d540895044ad",
           "width": 196,
           "x": 1732,
-          "y": 837,
+          "y": 806,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -11017,7 +10778,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.1757638449180546,
+        "zoomFactor": 0.49138775453293865,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -11634,74 +11395,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1310,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite15",
-          "persistentUuid": "62f5c1f0-dfad-4ee9-9b54-9f38e2589ab9",
-          "width": 2246,
-          "x": -126,
-          "y": -90,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 376,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite16",
-          "persistentUuid": "eafcb2d8-32bc-42ce-a4e9-4ab07679f298",
-          "width": 1927,
-          "x": 4,
-          "y": -7,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 376,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite16",
-          "persistentUuid": "36ece872-165a-47e7-9951-fb6d63e887c7",
-          "width": 1927,
-          "x": -13,
-          "y": 367,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 376,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite16",
-          "persistentUuid": "b1f885fe-a2e2-4878-9e5a-6851f247c07d",
-          "width": 1927,
-          "x": -26,
-          "y": 696,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -11938,251 +11631,6 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite13",
-          "persistentUuid": "607684c4-4928-42f3-8279-ed24b650d101",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "pngtree-distress-grainy-dust-overlay-grunge-texture-for-your-design-png-image_9090758.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 1200,
-                            "y": 0
-                          },
-                          {
-                            "x": 1200,
-                            "y": 675
-                          },
-                          {
-                            "x": 0,
-                            "y": 675
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite14",
-          "persistentUuid": "1afbe8bc-df16-4fb9-a471-858702e6d24c",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "dust-overlay-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 4000,
-                            "y": 0
-                          },
-                          {
-                            "x": 4000,
-                            "y": 3000
-                          },
-                          {
-                            "x": 0,
-                            "y": 3000
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite15",
-          "persistentUuid": "fd76fecd-5108-4354-98a5-6611dc806035",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite15",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite15-1.png-overlay.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite16",
-          "persistentUuid": "c1b98f24-4f75-4b0d-a153-793c44786880",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "f93ee3cb85ecafe4ab46045d459959c65336284b-2410376651.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 1920,
-                            "y": 0
-                          },
-                          {
-                            "x": 1920,
-                            "y": 1080
-                          },
-                          {
-                            "x": 0,
-                            "y": 1080
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -12199,18 +11647,6 @@
           },
           {
             "objectName": "NewSprite11"
-          },
-          {
-            "objectName": "NewSprite13"
-          },
-          {
-            "objectName": "NewSprite14"
-          },
-          {
-            "objectName": "NewSprite15"
-          },
-          {
-            "objectName": "NewSprite16"
           }
         ]
       },
@@ -12662,33 +12098,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Instrument (mp3cut.net)(2).m4a",
-                "yes",
-                "",
-                "0.7"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
         }
@@ -12842,7 +12251,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5250860067782507,
+        "zoomFactor": 0.49138775453293565,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -12945,8 +12354,8 @@
           "name": "NewSprite6",
           "persistentUuid": "476c6099-484e-4ef2-bf08-d540895044ad",
           "width": 196,
-          "x": 1732,
-          "y": 837,
+          "x": 1727,
+          "y": 813,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -14214,6 +13623,1181 @@
           "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
+    },
+    {
+      "b": 250,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Level_328",
+      "name": "Level 8",
+      "r": 79,
+      "renderer3DWorldScale": 100,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 122,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.41630252177333305,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 51,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "3f9a047a-fa3b-4e5f-9d52-aed3994ae154",
+          "width": 1926,
+          "x": -4,
+          "y": -6,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1061,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "b636eccc-a77e-4169-a843-853d8dd9fa61",
+          "width": 43,
+          "x": 1880,
+          "y": 15,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1076,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "af13d77a-e6e4-404f-a80e-b2083fc6c7b6",
+          "width": 43,
+          "x": -1,
+          "y": 3,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 144,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "75a5f877-2c1f-4d3b-9c43-df37c568ec06",
+          "width": 1924,
+          "x": -2,
+          "y": 935,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "63f7c1bb-e138-4432-9bf7-105f7fc11090",
+          "width": 71,
+          "x": 57,
+          "y": 874,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 196,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite6",
+          "persistentUuid": "476c6099-484e-4ef2-bf08-d540895044ad",
+          "width": 196,
+          "x": 1569,
+          "y": 807,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 91,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "0309891a-47e7-4add-8e71-234f765426c3",
+          "width": 88,
+          "x": 689,
+          "y": 267,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "10eec0a1-3f86-41e9-95ff-aea6e8003337",
+          "width": 88,
+          "x": 1052,
+          "y": 83,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "66441902-2e48-43aa-a8e9-66ba7419a34d",
+          "width": 88,
+          "x": 1203,
+          "y": 151,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "8a81e6ed-2420-4b5d-aac3-ba17fee111cd",
+          "width": 88,
+          "x": 1124,
+          "y": 122,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "3f2a1838-d4ea-458c-b30d-607c0bdd79d5",
+          "width": 88,
+          "x": 771,
+          "y": 329,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 360,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "31d8772b-2a8f-4216-a028-2d5cbffa694b",
+          "width": 88,
+          "x": 495,
+          "y": 928,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 360,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "2cf75a2c-701c-4ed9-bc39-34054b507154",
+          "width": 88,
+          "x": 582,
+          "y": 921,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 360,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "c0fb1826-9983-4c5f-8a2e-9a066b5722c2",
+          "width": 88,
+          "x": 671,
+          "y": 921,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 360,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "7191f255-9aeb-4654-9f90-994b0894ab00",
+          "width": 88,
+          "x": 769,
+          "y": 921,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 360,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "2cff7dc5-95ba-408e-b46e-a6fb10fb4202",
+          "width": 88,
+          "x": 858,
+          "y": 507,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 176,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "c61f80f2-9210-49b6-8d94-5d6db32c0163",
+          "width": 88,
+          "x": 859,
+          "y": 763,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 88,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "1e45af4a-f6ce-4ade-b8c3-b96dfabf174b",
+          "width": 88,
+          "x": 1493,
+          "y": 578,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 360,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "47739de7-beb4-4952-91ff-91ff80de83cf",
+          "width": 88,
+          "x": 857,
+          "y": 678,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 179,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "8abffdbc-f049-4ddb-bf34-05d6efb1451e",
+          "width": 88,
+          "x": 855,
+          "y": 593,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 184,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "5c964e1a-5371-481b-8883-0d1581f4a57b",
+          "width": 88,
+          "x": 853,
+          "y": 433,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 271,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "39fab4cd-2558-4d17-a745-7447d3fbb1ae",
+          "width": 88,
+          "x": 1797,
+          "y": 687,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 149,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "b53e8971-0d5c-47b9-9611-6a50e4e9efa3",
+          "width": 184,
+          "x": 32,
+          "y": 20,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 695,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "38de6aec-79f6-4c96-8ab1-cad103336e06",
+          "width": 32,
+          "x": 658,
+          "y": 238,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 3,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "d56d6913-013c-45fa-b6fe-b9c4235e736e",
+          "width": 88,
+          "x": 576,
+          "y": 271,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 424,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "af2ffa97-f103-43a0-80c6-99bf5b90f756",
+          "width": 32,
+          "x": 1459,
+          "y": 585,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 316,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "d0b5f2c9-75f9-48cf-b665-622f164b3832",
+          "width": 32,
+          "x": 1762,
+          "y": 145,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 310,
+          "customSize": true,
+          "depth": 1,
+          "height": 213,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "75ef8f39-eb15-4458-ac26-753faa932dd6",
+          "width": 32,
+          "x": 954,
+          "y": -25,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite9",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite9",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 13
+                          },
+                          {
+                            "x": 50,
+                            "y": 13
+                          },
+                          {
+                            "x": 50,
+                            "y": 53
+                          },
+                          {
+                            "x": 7,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewSprite9"
+          },
+          {
+            "objectName": "NewText"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::ApplyForceTowardPosition"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "(DistanceBetweenPositions3D(NewSprite2.X(), NewSprite2.Y(), 0, CursorX(), CursorY(), 0))/100",
+                "MouseX(\"\",0)",
+                "MouseY(\"\",0)",
+                "NewSprite2.PointX(\"points\")",
+                "NewSprite2.PointY(\"points\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::CollisionStarted"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "NewSprite5",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetStatic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::AngularVelocity"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetDynamic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "137"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "123"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::CollisionStarted"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "NewSprite6",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"win5\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetStatic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::AngularVelocity"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clicks",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "(\"Clicks: \") + ToString(clicks)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "137"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "123"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NewSprite2",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetDynamic"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Physics2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Instrument.m4a",
+                "yes",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "MaxMovementSpeed_Forces",
+          "type": "SpeedRestrictions::MaxMovementSpeed_Forces"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "worldScale": 100,
+          "scaleX": 100,
+          "scaleY": 100
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
     }
   ],
   "layoutsFolderStructure": {
@@ -14260,6 +14844,9 @@
       },
       {
         "itemName": "Level 6"
+      },
+      {
+        "itemName": "Level 8"
       }
     ]
   },
