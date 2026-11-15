@@ -10778,7 +10778,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.49138775453293865,
+        "zoomFactor": 0.4303403802207682,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -11389,8 +11389,8 @@
           "name": "NewSprite6",
           "persistentUuid": "2de482ef-20f5-4a2e-aabe-8f7927dab111",
           "width": 0,
-          "x": 1810,
-          "y": 50,
+          "x": 2046,
+          "y": -114,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -12072,27 +12072,22 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "NewSprite6"
-              ]
-            },
-            {
-              "type": {
                 "value": "Wait"
               },
               "parameters": [
-                "30"
+                "20"
               ]
             },
             {
               "type": {
-                "value": "Show"
+                "value": "SetXY"
               },
               "parameters": [
                 "NewSprite6",
-                ""
+                "=",
+                "1816",
+                "=",
+                "60"
               ]
             }
           ]
