@@ -5499,6 +5499,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 6,
+          "height": 813,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite67_you_win",
+          "persistentUuid": "9368bf17-d7bd-47a1-84ed-180539f6b337",
+          "width": 813,
+          "x": 604,
+          "y": 10,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
