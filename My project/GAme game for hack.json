@@ -2486,8 +2486,8 @@
           "name": "NewSprite6",
           "persistentUuid": "690a796c-1ebf-45d4-8af7-95425154cdc5",
           "width": 360,
-          "x": 797,
-          "y": 358,
+          "x": 791,
+          "y": 493,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2633,6 +2633,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite11",
+          "persistentUuid": "088acc2d-095a-493b-94b9-65d0e7a241cd",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/NewSprite27.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 63,
+                            "y": 3
+                          },
+                          {
+                            "x": 63,
+                            "y": 35
+                          },
+                          {
+                            "x": 1,
+                            "y": 35
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2640,6 +2701,9 @@
         "children": [
           {
             "objectName": "NewSprite6"
+          },
+          {
+            "objectName": "NewSprite11"
           },
           {
             "objectName": "NewSprite10"
