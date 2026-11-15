@@ -9716,8 +9716,8 @@
           "name": "NewSprite9",
           "persistentUuid": "e578a9b8-a73c-4aa4-af7f-bcc22cffbe59",
           "width": 86,
-          "x": 1807,
-          "y": 679,
+          "x": 1804,
+          "y": 685,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -12124,6 +12124,36 @@
               },
               "parameters": [
                 "NewSprite6",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KRZA7GK1WW3NBFBXHAZN7BKY",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NewSprite11",
+                "NewSprite10",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level Backrooms\"",
                 ""
               ]
             }
