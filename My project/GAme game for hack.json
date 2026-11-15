@@ -827,7 +827,7 @@
       {
         "file": "assets/NewSprite46.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite46.png\"}",
         "name": "assets/NewSprite29",
         "smoothed": false,
         "userAdded": false
@@ -2606,7 +2606,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.33005600491659276,
+        "zoomFactor": 0.40272258333259153,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -7244,7 +7244,7 @@
           "initialVariables": []
         },
         {
-          "angle": 1,
+          "angle": 269,
           "customSize": true,
           "depth": 2,
           "height": 150,
@@ -7253,8 +7253,8 @@
           "name": "NewSprite6",
           "persistentUuid": "476c6099-484e-4ef2-bf08-d540895044ad",
           "width": 150,
-          "x": 1714,
-          "y": 852,
+          "x": 1728,
+          "y": 856,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -7719,12 +7719,86 @@
           "actions": [
             {
               "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "NewSprite9",
+                "NewSprite6.X()-10",
+                "NewSprite6.Y()-20",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "NewSprite9",
+                "=",
+                "-90"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "NewSprite9",
+                "Resizable",
+                "NewSprite6.Height()",
+                "NewSprite6.Width()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "NewSprite6"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "NewSprite2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+              },
+              "parameters": [
+                "NewSprite9",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
                 "\"Level 4.5\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
               ]
             }
           ]
