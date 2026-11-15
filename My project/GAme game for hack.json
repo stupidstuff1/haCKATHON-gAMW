@@ -807,6 +807,22 @@
         "name": "NewSprite11",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/default3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default4",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -2255,7 +2271,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "default",
+                  "image": "default4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2271,20 +2287,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4,
+                        "x": 3,
                         "y": 0
                       },
                       {
-                        "x": 122,
+                        "x": 125,
                         "y": 0
                       },
                       {
-                        "x": 122,
-                        "y": 119
+                        "x": 125,
+                        "y": 113
                       },
                       {
-                        "x": 4,
-                        "y": 119
+                        "x": 3,
+                        "y": 113
                       }
                     ]
                   ]
@@ -2423,6 +2439,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite11",
+      "persistentUuid": "d029d481-ff30-4617-a7a7-ad5ea8edf520",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
