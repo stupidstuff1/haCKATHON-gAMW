@@ -779,18 +779,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/headphones.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/headphones.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/headphones2.png",
+        "file": "assets/NewSprite43.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "assets/headphones",
+        "name": "NewSprite11",
         "smoothed": false,
         "userAdded": false
       }
@@ -2299,7 +2291,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4303403802207652,
+        "zoomFactor": 0.40272258333259103,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2375,8 +2367,8 @@
           "name": "NewSprite6",
           "persistentUuid": "690a796c-1ebf-45d4-8af7-95425154cdc5",
           "width": 360,
-          "x": 797,
-          "y": 358,
+          "x": 811,
+          "y": 416,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2402,15 +2394,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 1277,
+          "depth": 3,
+          "height": 155,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite11",
-          "persistentUuid": "34511050-3cd6-4308-b5e9-a367f14f398b",
-          "width": 1277,
-          "x": 227,
-          "y": -369,
+          "persistentUuid": "7d239dc5-bea7-4144-ad89-5e2cf210e2b3",
+          "width": 1085,
+          "x": 502,
+          "y": 97,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -2543,7 +2535,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "NewSprite11",
-          "persistentUuid": "e4962c98-de54-488d-9f27-48a71d6e1814",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2551,7 +2542,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assets/headphones",
+              "name": "NewSprite11",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2561,7 +2552,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/headphones",
+                      "image": "NewSprite11",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2577,20 +2568,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 134,
-                            "y": 220
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 683,
-                            "y": 220
+                            "x": 324,
+                            "y": 0
                           },
                           {
-                            "x": 683,
-                            "y": 340
+                            "x": 324,
+                            "y": 50
                           },
                           {
-                            "x": 134,
-                            "y": 340
+                            "x": 0,
+                            "y": 50
                           }
                         ]
                       ]
